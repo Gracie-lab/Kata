@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ge3ApS1czCDUZZBD7hs6SnSTvJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Semicolon/java/SalesArray" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="NumberUtils" />
+      <recent name="LargetNumber" />
+      <recent name="SalaryCalc" />
+      <recent name="Binary" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="SalaryCalc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.NumberUtilsTest.numberInWordsTest">
+    <configuration name="NumberUtilsTest.numberInWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chibuzor&amp;I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NumberUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NumberUtils" />
+      <option name="MAIN_CLASS_NAME" value="NumberUtils.NumberUtilsTest" />
+      <option name="METHOD_NAME" value="numberInWordsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberUtilsTest.printHundreds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chibuzor&amp;I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NumberUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NumberUtils" />
+      <option name="MAIN_CLASS_NAME" value="NumberUtils.NumberUtilsTest" />
+      <option name="METHOD_NAME" value="printHundreds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberUtilsTest.printMillion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chibuzor&amp;I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NumberUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NumberUtils" />
+      <option name="MAIN_CLASS_NAME" value="NumberUtils.NumberUtilsTest" />
+      <option name="METHOD_NAME" value="printMillion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberUtilsTest.printThousands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chibuzor&amp;I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NumberUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NumberUtils" />
+      <option name="MAIN_CLASS_NAME" value="NumberUtils.NumberUtilsTest" />
+      <option name="METHOD_NAME" value="printThousands" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberUtilsTest.printUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chibuzor&amp;I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NumberUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NumberUtils" />
+      <option name="MAIN_CLASS_NAME" value="NumberUtils.NumberUtilsTest" />
+      <option name="METHOD_NAME" value="printUnit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NumberUtilsTest.numberInWordsTest" />
+        <item itemvalue="JUnit.NumberUtilsTest.printMillion" />
+        <item itemvalue="JUnit.NumberUtilsTest.printThousands" />
+        <item itemvalue="JUnit.NumberUtilsTest.printUnit" />
+        <item itemvalue="JUnit.NumberUtilsTest.printHundreds" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="" />
+      <created>1598461089105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598461089105</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599504413345">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.720@0.0.1280.720" timestamp="1599504413345" />
+    <state x="125" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1599295580089">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="125" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1599295580089" />
+    <state x="421" y="115" key="FileChooserDialogImpl" timestamp="1599358999266">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1599358999266" />
+    <state width="1237" height="225" key="GridCell.Tab.0.bottom" timestamp="1599527097773">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="225" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599527097773" />
+    <state width="1237" height="225" key="GridCell.Tab.0.center" timestamp="1599527097773">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="225" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1599527097773" />
+    <state width="1237" height="225" key="GridCell.Tab.0.left" timestamp="1599527097773">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="225" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1599527097773" />
+    <state width="1237" height="225" key="GridCell.Tab.0.right" timestamp="1599527097773">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="225" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1599527097773" />
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1599523883807">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599523883807" />
+    <state width="1237" height="220" key="GridCell.Tab.1.center" timestamp="1599523883807">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1599523883807" />
+    <state width="1237" height="220" key="GridCell.Tab.1.left" timestamp="1599523883807">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1599523883807" />
+    <state width="1237" height="220" key="GridCell.Tab.1.right" timestamp="1599523883807">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1599523883807" />
+    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1598979506624">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1598979506624" />
+    <state x="337" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1599520006282">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="337" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1599520006282" />
+    <state x="376" y="253" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598461158535">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="376" y="253" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.720@0.0.1280.720" timestamp="1598461158535" />
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598979506642">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1598979506642" />
+    <state x="91" y="0" key="new project wizard" timestamp="1598906636496">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="91" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1598906636496" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1598644318832">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1598644318832" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test_binary/Binary/BinaryTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/NumberUtils/NumberUtilsTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberUtils/NumberUtils.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/NumberUtils/NumberUtils.java</url>
+          <line>36</line>
+          <properties class="NumberUtils.NumberUtils" method="getMinute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/NumberUtils/NumberUtils.java</url>
+          <line>40</line>
+          <properties class="NumberUtils.NumberUtils" method="convertHourToWords">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/NumberUtils/NumberUtilsTest.java</url>
+          <line>30</line>
+          <properties class="NumberUtils.NumberUtilsTest" method="HourAndSecondIsValidTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/NumberUtils/NumberUtilsTest.java</url>
+          <line>37</line>
+          <properties class="NumberUtils.NumberUtilsTest" method="convertHourToWordsTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/NumberUtils/NumberUtilsTest.java</url>
+          <line>61</line>
+          <properties class="NumberUtils.NumberUtilsTest" method="printTimeInWord">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/NumberUtils/NumberUtils.java</url>
+          <line>52</line>
+          <properties class="NumberUtils.NumberUtils" method="convertMinuteToWords">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/NumberUtils/NumberUtils.java</url>
+          <line>82</line>
+          <properties class="NumberUtils.NumberUtils" method="getCurrentHour">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/NumberUtils/NumberUtilsTest.java</url>
+          <line>109</line>
+          <properties class="NumberUtils.NumberUtilsTest" method="printTwentiesWords">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/NumberUtils/NumberUtilsTest.java</url>
+          <line>118</line>
+          <properties class="NumberUtils.NumberUtilsTest" method="printHundreds">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/NumberUtils/NumberUtilsTest.java</url>
+          <line>127</line>
+          <properties class="NumberUtils.NumberUtilsTest" method="printThousands">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
