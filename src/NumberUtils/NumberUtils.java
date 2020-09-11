@@ -9,14 +9,15 @@ public class NumberUtils {
     private static String wordHour = null;
     static LocalTime time = LocalTime.now();
 
+    private static String[] thousandth = {"hundred", "thousand", "million", "billion"};
+//    private static String millionth = "million";
+//    private static String hundredth = "hundred";
+//    private static String billionth = "billion";
     private static String[] hourInWord = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty", "twenty one", "twenty two", "twenty three"};
     private static String[] units = {"", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     private static String[] tens = {"ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
     private static String[] tens2 = {"", " ", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"};
-    private static String[] hundreds = {"", "one hundred", "two hundred", "three hundred", "four hundred", "five hundred", "six hundred", "seven hundred", "eight hundred", "nine hundred"};
-    private static String[] thousands = {"", "one thousand", "two thousand", "three thousand", "four thousand", "five thousand", "six thousand", "seven thousand", "eight thousand", "nine thousand"};
     private static String[] millions = {"", "one million", "two million", "three million", "three million", "four million", "five million", "six million", "seven million", "eight million", "nine million"};
-    private static int number;
 
     public NumberUtils() {
 
@@ -57,132 +58,144 @@ public class NumberUtils {
         String firstWord = null;
         String secondWord = null;
 
-            if (minute / 10 == 1) {
-                minuteWord = tens[index];
-            } else if (minute / 10 >= 2 && minute / 10 <= 5) {
-                firstWord = tens2[firstDigit];
-                secondWord = units[index];
-                minuteWord = firstWord + secondWord;
-            }else if (minute < 10){
-                minuteWord = units[minute];
-            }
+        if (minute / 10 == 1) {
+            minuteWord = tens[index];
+        } else if (minute / 10 >= 2 && minute / 10 <= 5) {
+            firstWord = tens2[firstDigit];
+            secondWord = units[index];
+            minuteWord = firstWord + secondWord;
+        } else if (minute < 10) {
+            minuteWord = units[minute];
+        }
 //        System.out.println(minuteWord);
 
         return minuteWord;
     }
 
-    public static void printTimeInWord () {
-            System.out.printf("%02d : %02d%n", hour, minute);
-            if (convertMinuteToWords() == "") {
-                System.out.printf("It's %s o'clock! %n", wordHour);
-            } else {
-                System.out.printf("%nIt's %s %s! %n", wordHour, minuteWord);
-            }
+    public static void printTimeInWord() {
+        System.out.printf("%02d : %02d%n", hour, minute);
+        if (convertMinuteToWords() == "") {
+            System.out.printf("It's %s o'clock! %n", wordHour);
+        } else {
+            System.out.printf("%nIt's %s %s! %n", wordHour, minuteWord);
+        }
     }
 
-    public static String getCurrentHour () {
-            for (int i = 0; i < hourInWord.length; i++) {
-                if (time.getHour() == i) {
-                    wordHour = hourInWord[i];
-                }
+    public static String getCurrentHour() {
+        for (int i = 0; i < hourInWord.length; i++) {
+            if (time.getHour() == i) {
+                wordHour = hourInWord[i];
             }
-            if (time.getHour() == 0) {
-                wordHour = hourInWord[12];
-            }
-            return wordHour;
+        }
+        if (time.getHour() == 0) {
+            wordHour = hourInWord[12];
+        }
+        return wordHour;
     }
 
-    public static String getCurrentMinute () {
+    public static String getCurrentMinute() {
         int firstDigit = time.getMinute() / 10;
         int index = time.getMinute() % 10;
         String firstWord = null;
         String secondWord = null;
         for (int i = 0; i < tens.length; i++) {
             if (time.getMinute() / 10 == 1) {
-               minuteWord = tens[index];
+                minuteWord = tens[index];
             } else if (time.getMinute() / 10 >= 2 && time.getMinute() / 10 <= 5) {
                 firstWord = tens2[firstDigit];
                 secondWord = units[index];
                 minuteWord = firstWord + secondWord;
-            }else if (time.getMinute() < 20){
+            } else if (time.getMinute() < 20) {
                 minuteWord = units[time.getMinute()];
             }
         }
         return minuteWord;
     }
 
-    public static void whatIsTheTime () {
-            if (time.getHour() >= 12 && time.getHour() <= 15) {
+    public static void whatIsTheTime() {
+        if (time.getHour() >= 12 && time.getHour() <= 15) {
+            System.out.println("GOOD AFTERNOON.");
+            System.out.printf("%nIT'S %s %s P.M! %n", getCurrentHour().toUpperCase(), getCurrentMinute().toUpperCase());
+            if (getCurrentMinute() == "zero") {
                 System.out.println("GOOD AFTERNOON.");
-                System.out.printf("%nIT'S %s %s P.M! %n", getCurrentHour().toUpperCase(), getCurrentMinute().toUpperCase());
-                if (getCurrentMinute() == "zero") {
-                    System.out.println("GOOD AFTERNOON.");
-                    System.out.printf("IT'S %s O'CLOCK! %n", wordHour);
-                }
-                System.out.printf("%02d:%02d P.M%n", time.getHour(), time.getMinute());
-            } else if (time.getHour() >= 16 && time.getHour() <= 23) {
+                System.out.printf("IT'S %s O'CLOCK! %n", wordHour);
+            }
+            System.out.printf("%02d:%02d P.M%n", time.getHour(), time.getMinute());
+        } else if (time.getHour() >= 16 && time.getHour() <= 23) {
+            System.out.println("GOOD EVENING.");
+            System.out.printf("%nIT'S %s %s P.M! %n", getCurrentHour().toUpperCase(), getCurrentMinute().toUpperCase());
+            if (getCurrentMinute() == "zero") {
                 System.out.println("GOOD EVENING.");
-                System.out.printf("%nIT'S %s %s P.M! %n", getCurrentHour().toUpperCase(), getCurrentMinute().toUpperCase());
-                if (getCurrentMinute() == "zero") {
-                    System.out.println("GOOD EVENING.");
-                    System.out.printf("IT'S %s O'CLOCK! %n", wordHour.toUpperCase());
-                }
-                System.out.printf("%02d:%02d P.M%n", time.getHour(), time.getMinute());
-            } else {
-                System.out.println("GOOD MORNING");
-                System.out.printf("%nIT'S %s %s A.M! %n", getCurrentHour().toUpperCase(), getCurrentMinute().toUpperCase());
-                if (getCurrentMinute() == "zero") {
-                    System.out.println("GOOD MORNING.");
-                    System.out.printf("IT'S %s O'CLOCK! %n", wordHour.toUpperCase());
-                }
-                System.out.printf("%02d:%02d A.M%n", time.getHour(), time.getMinute());
+                System.out.printf("IT'S %s O'CLOCK! %n", wordHour.toUpperCase());
             }
-
-    }
-
-    public static String unitInWords ( int number){
-            String numberInWord = units[number];
-            return numberInWord;
-    }
-
-    public static String tensInWord ( int number){
-            String numberInWord = null;
-            int place = number / 10;
-            int lastDigit = number % 10;
-            if (place == 1) {
-                numberInWord = tens[lastDigit];
-            } else if (place >= 2 && place <= 9) {
-                String firstWord = tens2[place];
-                String secondWord = units[lastDigit];
-                numberInWord = firstWord + " " + secondWord;
+            System.out.printf("%02d:%02d P.M%n", time.getHour(), time.getMinute());
+        } else {
+            System.out.println("GOOD MORNING");
+            System.out.printf("%nIT'S %s %s A.M! %n", getCurrentHour().toUpperCase(), getCurrentMinute().toUpperCase());
+            if (getCurrentMinute() == "zero") {
+                System.out.println("GOOD MORNING.");
+                System.out.printf("IT'S %s O'CLOCK! %n", wordHour.toUpperCase());
             }
-            return numberInWord;
+            System.out.printf("%02d:%02d A.M%n", time.getHour(), time.getMinute());
+        }
+
     }
 
-    public static String convertHundreds ( int number){
-            int hundred = number / 100;
-            int remainder = number % 100;
-            int tens = remainder / 10;
-            int lastDigit = remainder % 10;
-            String firstWord = hundreds[hundred];
-            String secondWord = tens2[tens];
-            String thirdWord = units[lastDigit];
-            return firstWord + " and " + secondWord + " " + thirdWord;
+    public static String unitInWords(int number) {
+        String numberInWord = units[number];
+        return numberInWord;
     }
 
-    public static String convertThousandsToWords ( int number){
-            int thousand = number / 1000;
-            int hundred = (number % 1000) / 100;
-            int tens = ((number % 1000) % 100) % 10;
-            int unit = (((number % 1000) % 100) % 10) % 10;
-            String firstWord = thousands[thousand];
-            String secondWord = hundreds[hundred];
-            String thirdWord = tens2[tens];
-            String lastWord = units[unit];
-            if (hundred == 0 && tens == 0 && unit == 0) {
-                return firstWord;
-            }
-            return firstWord + "," + secondWord + " and " + thirdWord + " " + lastWord;
+    public static String tensInWord(int number) {
+        String numberInWord = null;
+        int place = number / 10;
+        int lastDigit = number % 10;
+        if (place == 1) {
+            numberInWord = tens[lastDigit];
+        } else if (place >= 2 && place <= 9) {
+            String firstWord = tens2[place];
+            String secondWord = units[lastDigit];
+            numberInWord = firstWord + " " + secondWord;
+        }
+        return numberInWord;
+    }
+
+    public static String convertHundreds(int number) {
+        String word = null;
+        int hundred = number / 100;
+        int remainder = number % 100;
+        int tens = remainder / 10;
+        int lastDigit = remainder % 10;
+        String firstWord = units[hundred];
+        String secondWord = tens2[tens];
+        String thirdWord = units[lastDigit];
+        if (remainder == 0 & tens == 0) {
+            word = firstWord + " " + thousandth[0];
+        } else if (tens == 0) {
+            word = firstWord + " " + thousandth[0] + " and " + thirdWord;
+        } else if (lastDigit == 0) {
+            word = firstWord + " " + thousandth[0] + " and " + secondWord;
+        } else {
+            word = firstWord + " " + thousandth[0] + " and " + secondWord + " " + thirdWord;
+        }
+        return word;
+
+    }
+
+    public static String convertThousandsToWords(int number) {
+        int thousand = number / 1000;
+        int hundred = (number % 1000) / 100;
+        int tens = ((number % 1000) % 100) % 10;
+        int unit = (((number % 1000) % 100) % 10) % 10;
+        String firstWord = units[thousand];
+        String secondWord = units[hundred];
+        String thirdWord = tens2[tens];
+        String lastWord = units[unit];
+        if (hundred == 0 && tens == 0 && unit == 0) {
+            return firstWord + " " + thousandth[1];
+        }else if(hundred == 0){return firstWord+" "+thousandth[1]+" and "+ thirdWord + " " + lastWord;}
+        else if(hundred == 0 && unit == 0 ){return firstWord + " " +thousandth[1] + " and " + thirdWord;}
+        return firstWord + " "+ thousandth[1] + "," + secondWord + " " + thousandth[0] + " and " + thirdWord + " " + lastWord;
     }
 
     public static String convertMillionToWords ( int number){
@@ -193,17 +206,18 @@ public class NumberUtils {
             int ten = ((number % 100000) % 100) / 10;
             int unit = (number % 100000) % 100 % 10;
 
-            String firstWord = millions[million];
-            String secondWord = hundreds[hundredThousand];
+            String firstWord = units[million];
+            String secondWord = units[hundredThousand];
             String thirdWord = tens2[hundredTen];
-            String fourthWord = thousands[hundredUnit];
+            String fourthWord = units[hundredUnit];
             String fifthWord = tens2[ten];
             String lastWord = units[unit];
 
             if (hundredThousand == 0 && hundredTen == 0 && hundredUnit == 0 && ten == 0 && unit == 0) {
-                return firstWord;
-            }
-            return firstWord + "," + secondWord + " and " + thirdWord + "" + fourthWord + " and " + fifthWord + " " + lastWord;
+                return firstWord + " " + thousandth[2];
+            }else if(hundredThousand == 0){return firstWord +" "+ thousandth[2] +  "and " + thirdWord + "" + fourthWord +" " +thousandth +  " and " + fifthWord + " " + lastWord;}
+
+                return firstWord +" "+ thousandth[2] + "," + secondWord + " " + thousandth[0] + " and " + thirdWord + "" + fourthWord +" " +thousandth +  " and " + fifthWord + " " + lastWord;
     }
 
     public static String printNumberInWords ( int number){
@@ -221,7 +235,8 @@ public class NumberUtils {
             }
             return result;
     }
-}
+    }
+
 
 
 

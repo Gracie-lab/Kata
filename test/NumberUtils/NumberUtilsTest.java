@@ -119,20 +119,25 @@ class NumberUtilsTest {
     void printHundreds(){
         assertEquals("two hundred and twenty five", NumberUtils.convertHundreds(225));
         assertEquals("two hundred and thirty nine", NumberUtils.convertHundreds(239));
+        assertEquals("three hundred", NumberUtils.convertHundreds(300));
+        assertEquals("two hundred and five", NumberUtils.convertHundreds(205));
+        assertEquals("two hundred and fifty", NumberUtils.convertHundreds(250));
     }
 
     @Test
     void printThousands(){
 
         assertEquals("one thousand,five hundred and fifty five", NumberUtils.convertThousandsToWords(1555));
-        assertEquals("five thousand, and fifty five", NumberUtils.convertThousandsToWords(5055));
+        assertEquals("five thousand and fifty five", NumberUtils.convertThousandsToWords(5055));
         assertEquals("five thousand", NumberUtils.convertThousandsToWords(5000));
+//        assertEquals("five thousand and fifty", NumberUtils.convertThousandsToWords(5050));
+
     }
 
     @Test
     void printMillion(){
         assertEquals("one million,two hundred and fiftythree thousand and twenty seven", NumberUtils.convertMillionToWords(125327));
-        assertEquals("one million, and fiftythree thousand and twenty seven", NumberUtils.convertMillionToWords(105327));
+        assertEquals("one million, and fifty three thousand and twenty seven", NumberUtils.convertMillionToWords(105327));
         assertEquals("one million", NumberUtils.convertMillionToWords(100000));
     }
 
@@ -154,9 +159,9 @@ class NumberUtilsTest {
         assertEquals("two hundred and thirty nine", NumberUtils.printNumberInWords(239));
 
         assertEquals("one thousand,five hundred and fifty five", NumberUtils.printNumberInWords(1555));
-        assertEquals("five thousand, and fifty five", NumberUtils.printNumberInWords(5055));
+        assertEquals("five thousand and fifty five", NumberUtils.printNumberInWords(5055));
         assertEquals("five thousand", NumberUtils.printNumberInWords(5000));
-        
+
     }
 
 
