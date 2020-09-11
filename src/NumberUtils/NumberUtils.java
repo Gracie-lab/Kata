@@ -10,9 +10,6 @@ public class NumberUtils {
     static LocalTime time = LocalTime.now();
 
     private static String[] thousandth = {"hundred", "thousand", "million", "billion"};
-//    private static String millionth = "million";
-//    private static String hundredth = "hundred";
-//    private static String billionth = "billion";
     private static String[] hourInWord = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty", "twenty one", "twenty two", "twenty three"};
     private static String[] units = {"", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     private static String[] tens = {"ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
