@@ -14,7 +14,6 @@ public class NumberUtils {
     private static String[] units = {"", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     private static String[] tens = {"ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
     private static String[] tens2 = {"", " ", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"};
-    private static String[] millions = {"", "one million", "two million", "three million", "three million", "four million", "five million", "six million", "seven million", "eight million", "nine million"};
 
     public NumberUtils() {
 
@@ -139,8 +138,7 @@ public class NumberUtils {
     }
 
     public static String unitInWords(int number) {
-        String numberInWord = units[number];
-        return numberInWord;
+        return units[number];
     }
 
     public static String tensInWord(int number) {
@@ -158,25 +156,19 @@ public class NumberUtils {
     }
 
     public static String convertHundreds(int number) {
-        String word = null;
         int hundred = number / 100;
         int remainder = number % 100;
         int tens = remainder / 10;
         int lastDigit = remainder % 10;
-        String firstWord = units[hundred];
-        String secondWord = tens2[tens];
-        String thirdWord = units[lastDigit];
-        if (remainder == 0 & tens == 0) {
-            word = firstWord + " " + thousandth[0];
+        if (remainder == 0 && tens == 0) {
+            return units[hundred] + " " + thousandth[0];
         } else if (tens == 0) {
-            word = firstWord + " " + thousandth[0] + " and " + thirdWord;
+            return units[hundred] + " " + thousandth[0] + " and " + units[lastDigit] ;
         } else if (lastDigit == 0) {
-            word = firstWord + " " + thousandth[0] + " and " + secondWord;
+            return units[hundred] + " " + thousandth[0] + " and " + tens2[tens];
         } else {
-            word = firstWord + " " + thousandth[0] + " and " + secondWord + " " + thirdWord;
+            return units[hundred]+ " " + thousandth[0] + " and " + tens2[tens] + " " + units[lastDigit];
         }
-        return word;
-
     }
 
     public static String convertThousandsToWords(int number) {
@@ -184,15 +176,12 @@ public class NumberUtils {
         int hundred = (number % 1000) / 100;
         int tens = ((number % 1000) % 100) % 10;
         int unit = (((number % 1000) % 100) % 10) % 10;
-        String firstWord = units[thousand];
-        String secondWord = units[hundred];
-        String thirdWord = tens2[tens];
-        String lastWord = units[unit];
+
         if (hundred == 0 && tens == 0 && unit == 0) {
-            return firstWord + " " + thousandth[1];
-        }else if(hundred == 0){return firstWord+" "+thousandth[1]+" and "+ thirdWord + " " + lastWord;}
-        else if(hundred == 0 && unit == 0 ){return firstWord + " " +thousandth[1] + " and " + thirdWord;}
-        return firstWord + " "+ thousandth[1] + "," + secondWord + " " + thousandth[0] + " and " + thirdWord + " " + lastWord;
+            return units[thousand] + " " + thousandth[1];
+        }else if( hundred == 0 ) {return units[thousand]+" "+thousandth[1]+" and "+ tens2[tens] + " " + units[unit]; }
+        else if (hundred == 0 && unit == 0 ) {return units[thousand] + " " +thousandth[1] + " and " + tens2[tens];}
+        return units[thousand] + " "+ thousandth[1] + "," + units[hundred] + " " + thousandth[0] + " and " + tens2[tens] + " " + units[unit];
     }
 
     public static String convertMillionToWords ( int number){
@@ -203,18 +192,16 @@ public class NumberUtils {
             int ten = ((number % 100000) % 100) / 10;
             int unit = (number % 100000) % 100 % 10;
 
-            String firstWord = units[million];
-            String secondWord = units[hundredThousand];
-            String thirdWord = tens2[hundredTen];
-            String fourthWord = units[hundredUnit];
-            String fifthWord = tens2[ten];
-            String lastWord = units[unit];
-
             if (hundredThousand == 0 && hundredTen == 0 && hundredUnit == 0 && ten == 0 && unit == 0) {
-                return firstWord + " " + thousandth[2];
-            }else if(hundredThousand == 0){return firstWord +" "+ thousandth[2] +  "and " + thirdWord + "" + fourthWord +" " +thousandth +  " and " + fifthWord + " " + lastWord;}
+                return units[million] + " " + thousandth[2];
+            }else if(hundredThousand == 0){
+                return units[million] +" "+ thousandth[2] +  " and " + tens2[hundredTen] + " " + units[hundredUnit] +" " +thousandth[1] +  " and " + tens2[ten] + " " + units[unit];}
 
-                return firstWord +" "+ thousandth[2] + "," + secondWord + " " + thousandth[0] + " and " + thirdWord + "" + fourthWord +" " +thousandth +  " and " + fifthWord + " " + lastWord;
+            return units[million] +" "+ thousandth[2] + "," + units[hundredThousand] + " " + thousandth[0] + " and " + tens2[hundredTen] + "" + units[hundredUnit] +" " +thousandth[1] +  " and " + tens2[ten] + " " + units[unit];
+    }
+
+    public static String convertBillionToWord(int number){
+        return null;
     }
 
     public static String printNumberInWords ( int number){
@@ -232,8 +219,4 @@ public class NumberUtils {
             }
             return result;
     }
-    }
-
-
-
-
+}

@@ -137,7 +137,7 @@ class NumberUtilsTest {
     @Test
     void printMillion(){
         assertEquals("one million,two hundred and fiftythree thousand and twenty seven", NumberUtils.convertMillionToWords(125327));
-        assertEquals("one million, and fifty three thousand and twenty seven", NumberUtils.convertMillionToWords(105327));
+        assertEquals("one million and fifty three thousand and twenty seven", NumberUtils.convertMillionToWords(105327));
         assertEquals("one million", NumberUtils.convertMillionToWords(100000));
     }
 
