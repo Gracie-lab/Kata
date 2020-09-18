@@ -8,7 +8,7 @@ public class Player {
     private int point;
     private static int sum;
     private static String status;
-    private int bankBalance = 1000;
+    private int bankBalance = 0;
 
     int count = 1;
 

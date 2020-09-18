@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/Factorial/Factorials.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/Chibuzor&amp;I/Factorial/FactorialsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factorial/Factorials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Factorial/FactorialsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/NumberUtils/NumberUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/NumberUtils/NumberUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/GameOfCraps/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/GameOfCraps/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameOfCraps/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameOfCraps/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +20,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -43,24 +48,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Factorial" />
       <recent name="GameOfCraps" />
       <recent name="NumberUtils" />
       <recent name="LargetNumber" />
       <recent name="SalaryCalc" />
-      <recent name="Binary" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="GameOfCraps" />
       <recent name="SalaryCalc" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.DieTest.playerCanWager">
+  <component name="RunManager" selected="JUnit.FactorialsTest.calculateFactorialOfAnyNumber">
     <configuration name="DieTest.playerCanPlayAgain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
@@ -109,33 +114,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberUtilsTest.numberInWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactorialsTest.calculateFactorialOfAnyNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NumberUtils.*" />
+          <option name="PATTERN" value="Factorial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="NumberUtils" />
-      <option name="MAIN_CLASS_NAME" value="NumberUtils.NumberUtilsTest" />
-      <option name="METHOD_NAME" value="numberInWordsTest" />
+      <option name="PACKAGE_NAME" value="Factorial" />
+      <option name="MAIN_CLASS_NAME" value="Factorial.FactorialsTest" />
+      <option name="METHOD_NAME" value="calculateFactorialOfAnyNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberUtilsTest.printUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactorialsTest.calculateFactorialsOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NumberUtils.*" />
+          <option name="PATTERN" value="Factorial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="NumberUtils" />
-      <option name="MAIN_CLASS_NAME" value="NumberUtils.NumberUtilsTest" />
-      <option name="METHOD_NAME" value="printUnit" />
+      <option name="PACKAGE_NAME" value="Factorial" />
+      <option name="MAIN_CLASS_NAME" value="Factorial.FactorialsTest" />
+      <option name="METHOD_NAME" value="calculateFactorialsOf" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FactorialsTest.calculateFactorialOfAnyNumber" />
+        <item itemvalue="JUnit.FactorialsTest.calculateFactorialsOf" />
         <item itemvalue="JUnit.DieTest.playerCanWager" />
         <item itemvalue="JUnit.DieTest.playerCanPlayAgain" />
         <item itemvalue="JUnit.DieTest.playerCanRollDiceTest" />
-        <item itemvalue="JUnit.NumberUtilsTest.numberInWordsTest" />
-        <item itemvalue="JUnit.NumberUtilsTest.printUnit" />
       </list>
     </recent_temporary>
   </component>
@@ -197,22 +202,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1599358999266" />
-    <state width="1237" height="225" key="GridCell.Tab.0.bottom" timestamp="1600296490178">
+    <state width="1237" height="225" key="GridCell.Tab.0.bottom" timestamp="1600406303195">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="225" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1600296490178" />
-    <state width="1237" height="225" key="GridCell.Tab.0.center" timestamp="1600296490177">
+    <state width="1237" height="225" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1600406303195" />
+    <state width="1237" height="225" key="GridCell.Tab.0.center" timestamp="1600406303195">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="225" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1600296490177" />
-    <state width="1237" height="225" key="GridCell.Tab.0.left" timestamp="1600296490177">
+    <state width="1237" height="225" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1600406303195" />
+    <state width="1237" height="225" key="GridCell.Tab.0.left" timestamp="1600406303195">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="225" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1600296490177" />
-    <state width="1237" height="225" key="GridCell.Tab.0.right" timestamp="1600296490178">
+    <state width="1237" height="225" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1600406303195" />
+    <state width="1237" height="225" key="GridCell.Tab.0.right" timestamp="1600406303195">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="225" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1600296490178" />
+    <state width="1237" height="225" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1600406303195" />
     <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1599528260170">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -229,22 +234,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1599528260170" />
-    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1600225930595">
+    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1600404542829">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1600225930595" />
-    <state x="337" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1600289812847">
+    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1600404542829" />
+    <state x="337" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1600312234704">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1600289812847" />
+    <state x="337" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1600312234704" />
     <state x="376" y="253" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598461158535">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="376" y="253" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.720@0.0.1280.720" timestamp="1598461158535" />
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600225930626">
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600404542863">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1600225930626" />
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1600404542863" />
     <state x="91" y="0" key="new project wizard" timestamp="1600047846256">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -362,6 +367,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/Factorial/FactorialsTest.java</url>
+          <line>19</line>
+          <properties class="Factorial.FactorialsTest" method="calculateFactorialsOf">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
