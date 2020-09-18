@@ -8,7 +8,7 @@ public class Player {
     private int point;
     private static int sum;
     private static String status;
-    private int bankBalance = 0;
+    private int bankBalance = 1000;
 
     int count = 1;
 
@@ -69,27 +69,16 @@ public class Player {
         return bankBalance;
     }
 
-    public void playWager(int wager){
+    public int playWager(int wager){
         wager(wager);
-        while (setStatus() == "Continue"){
+        while (setStatus() == "Continue" && wager<=bankBalance){
             wager(wager);
             if (bankBalance == 0){
                 System.out.println("Busted! Game over.");
             }
         }
+        return bankBalance;
     }
-//                else {
-//                    while (setStatus() == "continue"){
-//                        rollDice();
-//                        setStatus();
-//                    }
-//                }
-//            }
-//            if (bankBalance == 0) {
-//                System.out.println("Busted! Game over");
-//            }
-//
-//
-//        return bankBalance;
-//    }
 }
+
+

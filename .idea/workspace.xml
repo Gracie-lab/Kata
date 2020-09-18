@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/Factorial/Factorials.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Chibuzor&amp;I/Factorial/FactorialsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factorial/Factorials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Factorial/FactorialsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/GameOfCraps/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/GameOfCraps/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameOfCraps/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameOfCraps/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/GameOfCraps/DieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/GameOfCraps/DieTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
       <recent name="SalaryCalc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FactorialsTest.calculateFactorialOfAnyNumber">
+  <component name="RunManager" selected="JUnit.DieTest.playerCanWager">
     <configuration name="DieTest.playerCanPlayAgain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
@@ -148,9 +145,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DieTest.playerCanWager" />
         <item itemvalue="JUnit.FactorialsTest.calculateFactorialOfAnyNumber" />
         <item itemvalue="JUnit.FactorialsTest.calculateFactorialsOf" />
-        <item itemvalue="JUnit.DieTest.playerCanWager" />
         <item itemvalue="JUnit.DieTest.playerCanPlayAgain" />
         <item itemvalue="JUnit.DieTest.playerCanRollDiceTest" />
       </list>
@@ -202,22 +199,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1599358999266" />
-    <state width="1237" height="225" key="GridCell.Tab.0.bottom" timestamp="1600406303195">
+    <state width="1237" height="225" key="GridCell.Tab.0.bottom" timestamp="1600431231331">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="225" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1600406303195" />
-    <state width="1237" height="225" key="GridCell.Tab.0.center" timestamp="1600406303195">
+    <state width="1237" height="225" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1600431231331" />
+    <state width="1237" height="225" key="GridCell.Tab.0.center" timestamp="1600431231331">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="225" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1600406303195" />
-    <state width="1237" height="225" key="GridCell.Tab.0.left" timestamp="1600406303195">
+    <state width="1237" height="225" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1600431231331" />
+    <state width="1237" height="225" key="GridCell.Tab.0.left" timestamp="1600431231331">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="225" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1600406303195" />
-    <state width="1237" height="225" key="GridCell.Tab.0.right" timestamp="1600406303195">
+    <state width="1237" height="225" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1600431231331" />
+    <state width="1237" height="225" key="GridCell.Tab.0.right" timestamp="1600431231331">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="225" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1600406303195" />
+    <state width="1237" height="225" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1600431231331" />
     <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1599528260170">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -238,10 +235,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1600404542829" />
-    <state x="337" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1600312234704">
+    <state x="337" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1600430496793">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1600312234704" />
+    <state x="337" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1600430496793" />
     <state x="376" y="253" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598461158535">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

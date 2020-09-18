@@ -45,7 +45,7 @@ class DieTest {
 
     @Test
     void playerCanWager(){
-        player.playWager(1000);
+        System.out.println(player.wager(800));
     }
 
 
