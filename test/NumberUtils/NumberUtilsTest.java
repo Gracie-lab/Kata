@@ -3,13 +3,8 @@ package NumberUtils;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.w3c.dom.ls.LSOutput;
 
-import java.sql.Time;
-import java.time.Clock;
 import java.time.LocalTime;
-import java.util.HashMap;
-import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -49,7 +44,7 @@ class NumberUtilsTest {
     @Test
     void convertMinuteToWordsTest(){
         NumberUtils time = new NumberUtils(10, 40);
-        assertEquals("forty", time.convertMinuteToWords());
+         assertEquals("forty", NumberUtils.convertMinuteToWords());
 
         NumberUtils time1 = new NumberUtils(10, 35);
         assertEquals("thirtyfive", time1.convertMinuteToWords());
@@ -63,22 +58,22 @@ class NumberUtilsTest {
         NumberUtils time = new NumberUtils(10, 45);
         assertEquals("ten", time.convertHourToWords());
         assertEquals("fortyfive", time.convertMinuteToWords());
-        time.printTimeInWord();
+        time.getCurrentTimeInWord();
 
         NumberUtils time1 = new NumberUtils(00, 00);
         assertEquals("twelve", time1.convertHourToWords());
          assertEquals("", time1.convertMinuteToWords());
-        time1.printTimeInWord();
+        time1.getCurrentTimeInWord();
 
         NumberUtils time2 = new NumberUtils(01, 00);
         assertEquals("one", time1.convertHourToWords());
          assertEquals("", time1.convertMinuteToWords());
-        time2.printTimeInWord();
+        time2.getCurrentTimeInWord();
 
         NumberUtils time3 = new NumberUtils(05, 30);
         assertEquals("five", time3.convertHourToWords());
         assertEquals("thirty", time3.convertMinuteToWords());
-        time3.printTimeInWord();
+        time3.getCurrentTimeInWord();
     }
 
     @Test
@@ -97,7 +92,7 @@ class NumberUtilsTest {
 
     @Test
     void whatIsTheTimeTest(){
-        NumberUtils.whatIsTheTime();
+        System.out.println(NumberUtils.whatIsTheTime());
     }
 
     @Test
@@ -148,19 +143,19 @@ class NumberUtilsTest {
 
     @Test
     void numberInWordsTest(){
-        assertEquals("five", NumberUtils.printNumberInWords(5));
+        assertEquals("five", NumberUtils.getNumberInWords(5));
 
-        assertEquals("fourteen", NumberUtils.printNumberInWords(14));
-        assertEquals("twenty three", NumberUtils.printNumberInWords(23));
-        assertEquals("thirty four", NumberUtils.printNumberInWords(34));
-        assertEquals("ninety nine", NumberUtils.printNumberInWords(99));
+        assertEquals("fourteen", NumberUtils.getNumberInWords(14));
+        assertEquals("twenty three", NumberUtils.getNumberInWords(23));
+        assertEquals("thirty four", NumberUtils.getNumberInWords(34));
+        assertEquals("ninety nine", NumberUtils.getNumberInWords(99));
 
-        assertEquals("two hundred and twenty five", NumberUtils.printNumberInWords(225));
-        assertEquals("two hundred and thirty nine", NumberUtils.printNumberInWords(239));
+        assertEquals("two hundred and twenty five", NumberUtils.getNumberInWords(225));
+        assertEquals("two hundred and thirty nine", NumberUtils.getNumberInWords(239));
 
-        assertEquals("one thousand,five hundred and fifty five", NumberUtils.printNumberInWords(1555));
-        assertEquals("five thousand and fifty five", NumberUtils.printNumberInWords(5055));
-        assertEquals("five thousand", NumberUtils.printNumberInWords(5000));
+        assertEquals("one thousand,five hundred and fifty five", NumberUtils.getNumberInWords(1555));
+        assertEquals("five thousand and fifty five", NumberUtils.getNumberInWords(5055));
+        assertEquals("five thousand", NumberUtils.getNumberInWords(5000));
 
     }
 

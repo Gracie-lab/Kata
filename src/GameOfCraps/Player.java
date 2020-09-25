@@ -20,7 +20,7 @@ public class Player {
 
     public String setStatus() {
         if ((sum == 7 || sum == 11) && count == 1) {
-            status = "You won!";
+           status = "You won";
             count++;
         } else if ((sum == 2 || sum == 3 || sum == 12) && count == 1) {
             status = "You lost";
@@ -36,10 +36,10 @@ public class Player {
 
     public String play() {
         rollDice();
-        System.out.printf("You played %d%n", sum);
+//        System.out.printf("You played %d%n", sum);
         setStatus();
         while (status == "Continue") {
-            System.out.println("Playing again");
+//            System.out.println("Playing again");
             rollDice();
             if (sum == 7 && count > 1) {
                 status = "You lost";
@@ -79,6 +79,26 @@ public class Player {
         }
         return bankBalance;
     }
+
+    public String play1000games(){
+        int numberOfGamesWon = 0;
+        int numberOfGamesLost = 0;
+        String statement = "";
+        for (int counter = 1; counter <=1000000; counter++){
+                play();
+                if (setStatus() == "You won") {
+                    numberOfGamesWon++;
+
+                }
+                if (setStatus() == "You lost") {
+                    numberOfGamesLost++;
+                }
+
+        }
+        statement = "Number of games won: " + numberOfGamesWon + "\nNumber of games lost: " + numberOfGamesLost;
+        return statement;
+    }
+
 }
 
 

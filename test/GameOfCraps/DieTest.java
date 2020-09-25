@@ -48,6 +48,12 @@ class DieTest {
         System.out.println(player.wager(800));
     }
 
+    @Test
+    void playGameMultipleTimeAndShowNumberOfGamesWonAndLost(){
+        System.out.println(player.play1000games());
+    }
+
+
 
 
 

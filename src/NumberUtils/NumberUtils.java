@@ -5,15 +5,15 @@ import java.time.LocalTime;
 public class NumberUtils {
     private static int hour;
     private static int minute;
-    private static String minuteWord = null;
-    private static String wordHour = null;
+    private static String minuteWord = "";
+    private static String wordHour = "";
     static LocalTime time = LocalTime.now();
+    private static String period = "";
 
     private static String[] thousandth = {"hundred", "thousand", "million", "billion"};
-    private static String[] hourInWord = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty", "twenty one", "twenty two", "twenty three"};
     private static String[] units = {"", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     private static String[] tens = {"ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
-    private static String[] tens2 = {"", " ", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"};
+    private static String[] tens2 = {"", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"};
 
     public NumberUtils() {
 
@@ -37,103 +37,81 @@ public class NumberUtils {
     }
 
     public String convertHourToWords() {
-        for (int i = 0; i < hourInWord.length; i++) {
-            if (hour == i) {
-                wordHour = hourInWord[i];
-            }
+        if (hour>=10 && hour <= 11) {
+            wordHour = tens[hour % 10];
+        }else {
+            wordHour = units[hour];
         }
         if (hour == 0) {
-            wordHour = hourInWord[12];
+            wordHour = tens[3];
         }
         return wordHour;
     }
 
     public static String convertMinuteToWords() {
         int firstDigit = minute / 10;
-        int index = minute % 10;
-        String firstWord = null;
-        String secondWord = null;
-
+        int secondDigit = minute % 10;
         if (minute / 10 == 1) {
-            minuteWord = tens[index];
+            minuteWord = tens[secondDigit];
         } else if (minute / 10 >= 2 && minute / 10 <= 5) {
-            firstWord = tens2[firstDigit];
-            secondWord = units[index];
-            minuteWord = firstWord + secondWord;
+            minuteWord = tens2[firstDigit] + units[secondDigit];
         } else if (minute < 10) {
             minuteWord = units[minute];
         }
-//        System.out.println(minuteWord);
 
         return minuteWord;
     }
 
-    public static void printTimeInWord() {
-        System.out.printf("%02d : %02d%n", hour, minute);
+
+    public static String getCurrentTimeInWord() {
         if (convertMinuteToWords() == "") {
-            System.out.printf("It's %s o'clock! %n", wordHour);
+            return String.format("It's %s o'clock! %n", wordHour);
         } else {
-            System.out.printf("%nIt's %s %s! %n", wordHour, minuteWord);
+            return String.format("%nIt's %s %s! %n", wordHour, minuteWord);
         }
     }
 
     public static String getCurrentHour() {
-        for (int i = 0; i < hourInWord.length; i++) {
-            if (time.getHour() == i) {
-                wordHour = hourInWord[i];
-            }
+        if (time.getHour()>=10 && time.getHour() <= 11) {
+            wordHour = tens[time.getHour() % 10];
+        }else {
+            wordHour = units[time.getHour()];
         }
         if (time.getHour() == 0) {
-            wordHour = hourInWord[12];
+            wordHour = tens[3];
         }
         return wordHour;
+
     }
 
     public static String getCurrentMinute() {
         int firstDigit = time.getMinute() / 10;
         int index = time.getMinute() % 10;
-        String firstWord = null;
-        String secondWord = null;
-        for (int i = 0; i < tens.length; i++) {
             if (time.getMinute() / 10 == 1) {
                 minuteWord = tens[index];
             } else if (time.getMinute() / 10 >= 2 && time.getMinute() / 10 <= 5) {
-                firstWord = tens2[firstDigit];
-                secondWord = units[index];
-                minuteWord = firstWord + secondWord;
+                minuteWord = tens2[firstDigit] + units[index];
             } else if (time.getMinute() < 20) {
                 minuteWord = units[time.getMinute()];
             }
-        }
         return minuteWord;
     }
 
-    public static void whatIsTheTime() {
+    public static String checkDayTime(){
         if (time.getHour() >= 12 && time.getHour() <= 15) {
-            System.out.println("GOOD AFTERNOON.");
-            System.out.printf("%nIT'S %s %s P.M! %n", getCurrentHour().toUpperCase(), getCurrentMinute().toUpperCase());
-            if (getCurrentMinute() == "zero") {
-                System.out.println("GOOD AFTERNOON.");
-                System.out.printf("IT'S %s O'CLOCK! %n", wordHour);
-            }
-            System.out.printf("%02d:%02d P.M%n", time.getHour(), time.getMinute());
-        } else if (time.getHour() >= 16 && time.getHour() <= 23) {
-            System.out.println("GOOD EVENING.");
-            System.out.printf("%nIT'S %s %s P.M! %n", getCurrentHour().toUpperCase(), getCurrentMinute().toUpperCase());
-            if (getCurrentMinute() == "zero") {
-                System.out.println("GOOD EVENING.");
-                System.out.printf("IT'S %s O'CLOCK! %n", wordHour.toUpperCase());
-            }
-            System.out.printf("%02d:%02d P.M%n", time.getHour(), time.getMinute());
-        } else {
-            System.out.println("GOOD MORNING");
-            System.out.printf("%nIT'S %s %s A.M! %n", getCurrentHour().toUpperCase(), getCurrentMinute().toUpperCase());
-            if (getCurrentMinute() == "zero") {
-                System.out.println("GOOD MORNING.");
-                System.out.printf("IT'S %s O'CLOCK! %n", wordHour.toUpperCase());
-            }
-            System.out.printf("%02d:%02d A.M%n", time.getHour(), time.getMinute());
-        }
+            period = "P.M";
+            return String.format("GOOD AFTERNOON.");
+        }else if (time.getHour() >= 16 && time.getHour() <= 23) {
+            period = "P.M";
+            return String.format("GOOD EVENING.");
+        }else {
+            period = "A.M";
+            return String.format("GOOD MORNING");}
+    }
+
+
+    public static String whatIsTheTime() {
+      return  checkDayTime() + ", IT'S " + getCurrentHour().toUpperCase()+ " " + getCurrentMinute().toUpperCase()+" "+ period;
 
     }
 
@@ -148,9 +126,7 @@ public class NumberUtils {
         if (place == 1) {
             numberInWord = tens[lastDigit];
         } else if (place >= 2 && place <= 9) {
-            String firstWord = tens2[place];
-            String secondWord = units[lastDigit];
-            numberInWord = firstWord + " " + secondWord;
+            numberInWord = tens2[place] + " " + units[lastDigit];
         }
         return numberInWord;
     }
@@ -204,7 +180,7 @@ public class NumberUtils {
         return null;
     }
 
-    public static String printNumberInWords ( int number){
+    public static String getNumberInWords(int number){
             String result = null;
             if (number / 10 == 0) {
                 result = unitInWords(number);

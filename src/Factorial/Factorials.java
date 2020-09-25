@@ -5,7 +5,7 @@ public class Factorials {
         int number = 1;
         long factorialOfNumber = 1;
         System.out.printf("N%25s%n%n", "N!");
-        while(number <=20){
+         while(number <=20){
             for(int counter = 1; counter <= number; counter++){
                 factorialOfNumber *= counter;
             }
