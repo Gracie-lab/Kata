@@ -23,7 +23,7 @@ class ConverterTest {
 
     @Test
     void testThatICanConvertMinutesToYearsAndDays(){
-        assertEquals(6, Converter.convertMinutesToYearsAndDays(3456789));
+        assertEquals("3456789 minutes is approximately 6 years and 210 days", Converter.convertMinutesToYearsAndDays(3456789));
     }
 
     @Test

@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ConverterUtils/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Date/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ConverterUtils/ConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Date/DateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/META-INF/Chibuzor&amp;I.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smallStore/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smallStore/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/ConverterUtils/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/ConverterUtils/Converter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConverterUtils/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConverterUtils/Converter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,7 @@
       <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConverterTest.testThaICanConvertMinutesToDays">
+  <component name="RunManager" selected="JUnit.ConverterTest.testThatICanConvertMinutesToYearsAndDays">
     <configuration name="check" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="check" />
       <module name="Chibuzor&amp;I" />
@@ -157,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConverterTest.testThaICanConvertMinutesToDays" />
         <item itemvalue="JUnit.ConverterTest.testThatICanConvertMinutesToYearsAndDays" />
+        <item itemvalue="JUnit.ConverterTest.testThaICanConvertMinutesToDays" />
         <item itemvalue="JUnit.ConverterTest.testThatICanConvertInchesToMetres" />
         <item itemvalue="JUnit.DateTest.testDateIsCorrect" />
         <item itemvalue="Application.check" />
@@ -178,7 +174,7 @@
       <updated>1598461089105</updated>
       <workItem from="1602594217215" duration="944000" />
       <workItem from="1603395840441" duration="2758000" />
-      <workItem from="1609122240655" duration="1122000" />
+      <workItem from="1609122240655" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
@@ -214,22 +210,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1602603187482" />
-    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1609123104605">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1609123575391">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1609123104605" />
-    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1609123104605">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1609123575391" />
+    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1609123575391">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1609123104605" />
-    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1609123104605">
+    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1609123575391" />
+    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1609123575391">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1609123104605" />
-    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1609123104605">
+    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1609123575391" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1609123575391">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1609123104605" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1609123575391" />
     <state x="233" y="90" key="Vcs.Push.Dialog.v2" timestamp="1602594382736">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -294,14 +290,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Date/Date.java</url>
-          <line>33</line>
-          <properties class="Date.Date" method="displayDate">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

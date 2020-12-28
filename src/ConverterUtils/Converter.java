@@ -8,12 +8,10 @@ public class Converter {
     public static int convertMinutesToDays(long minute){
         return (int) (minute/1440);
     }
-    public static int convertMinutesToYearsAndDays(long minute){
-        //convert to days
-        //convert days to years
-        //525600 minutes make one year
+
+    public static String convertMinutesToYearsAndDays(long minute){
+        int numberOfDays = convertMinutesToDays(minute)%365;
         int numberOfYears = convertMinutesToDays(minute)/365;
-//        int numberOfYears = (int) (minute/525600);
-        return numberOfYears;
+        return String.format("%d minutes is approximately %d years and %d days", minute, numberOfYears, numberOfDays);
     }
 }
