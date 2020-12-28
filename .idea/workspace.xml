@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ConverterUtils/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Date/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ConverterUtils/ConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Date/DateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/META-INF/Chibuzor&amp;I.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smallStore/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smallStore/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,20 +19,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="ProjectId" id="1ge3ApS1czCDUZZBD7hs6SnSTvJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -34,19 +42,23 @@
     <property name="Repository.Attach.Annotations" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/test" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Chibuzor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../smallStore" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ConverterUtils" />
+      <recent name="Date" />
       <recent name="smallStore" />
       <recent name="Factorial" />
       <recent name="GameOfCraps" />
-      <recent name="NumberUtils" />
-      <recent name="LargetNumber" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="smallStore" />
@@ -60,7 +72,7 @@
       <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.check">
+  <component name="RunManager" selected="JUnit.ConverterTest.testThaICanConvertMinutesToDays">
     <configuration name="check" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="check" />
       <module name="Chibuzor&amp;I" />
@@ -79,64 +91,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DieTest.playGameMultipleTimeAndShowNumberOfGamesWonAndLost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConverterTest.testThaICanConvertMinutesToDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GameOfCraps.*" />
+          <option name="PATTERN" value="ConverterUtils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="GameOfCraps" />
-      <option name="MAIN_CLASS_NAME" value="GameOfCraps.DieTest" />
-      <option name="METHOD_NAME" value="playGameMultipleTimeAndShowNumberOfGamesWonAndLost" />
+      <option name="PACKAGE_NAME" value="ConverterUtils" />
+      <option name="MAIN_CLASS_NAME" value="ConverterUtils.ConverterTest" />
+      <option name="METHOD_NAME" value="testThaICanConvertMinutesToDays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConverterTest.testThatICanConvertInchesToMetres" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NumberUtils.*" />
+          <option name="PATTERN" value="ConverterUtils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="NumberUtils" />
-      <option name="MAIN_CLASS_NAME" value="NumberUtils.NumberUtilsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberUtilsTest.whatIsTheTimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chibuzor&amp;I" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NumberUtils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="NumberUtils" />
-      <option name="MAIN_CLASS_NAME" value="NumberUtils.NumberUtilsTest" />
-      <option name="METHOD_NAME" value="whatIsTheTimeTest" />
+      <option name="PACKAGE_NAME" value="ConverterUtils" />
+      <option name="MAIN_CLASS_NAME" value="ConverterUtils.ConverterTest" />
+      <option name="METHOD_NAME" value="testThatICanConvertInchesToMetres" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.periodBetweenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConverterTest.testThatICanConvertMinutesToYearsAndDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="smallStore.*" />
+          <option name="PATTERN" value="ConverterUtils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="smallStore" />
-      <option name="MAIN_CLASS_NAME" value="smallStore.UserTest" />
-      <option name="METHOD_NAME" value="periodBetweenTest" />
+      <option name="PACKAGE_NAME" value="ConverterUtils" />
+      <option name="MAIN_CLASS_NAME" value="ConverterUtils.ConverterTest" />
+      <option name="METHOD_NAME" value="testThatICanConvertMinutesToYearsAndDays" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTest.testDateIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chibuzor&amp;I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Date.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Date" />
+      <option name="MAIN_CLASS_NAME" value="Date.DateTest" />
+      <option name="METHOD_NAME" value="testDateIsCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,26 +157,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConverterTest.testThaICanConvertMinutesToDays" />
+        <item itemvalue="JUnit.ConverterTest.testThatICanConvertMinutesToYearsAndDays" />
+        <item itemvalue="JUnit.ConverterTest.testThatICanConvertInchesToMetres" />
+        <item itemvalue="JUnit.DateTest.testDateIsCorrect" />
         <item itemvalue="Application.check" />
-        <item itemvalue="JUnit.NumberUtilsTest.whatIsTheTimeTest" />
-        <item itemvalue="JUnit.DieTest.playGameMultipleTimeAndShowNumberOfGamesWonAndLost" />
-        <item itemvalue="JUnit.NumberUtilsTest" />
-        <item itemvalue="JUnit.UserTest.periodBetweenTest" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -174,86 +176,84 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598461089105</updated>
+      <workItem from="1602594217215" duration="944000" />
+      <workItem from="1603395840441" duration="2758000" />
+      <workItem from="1609122240655" duration="1122000" />
     </task>
+    <task id="LOCAL-00001" summary="added Inventory and Order class">
+      <created>1602594377994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602594377994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added Inventory and Order class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Inventory and Order class" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599760912676">
+    <state x="125" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1603396106467">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.720@0.0.1280.720" timestamp="1599760912676" />
-    <state x="125" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1600520604986">
+    <state x="125" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1603396106467" />
+    <state x="335" y="277" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602594473176">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="125" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1600520604986" />
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600225974002">
+    <state x="335" y="277" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.720@0.0.1280.720" timestamp="1602594473176" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1602594377105">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1600225974002" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1600296511456">
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1602594377105" />
+    <state x="421" y="115" key="FileChooserDialogImpl" timestamp="1602603187482">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1600296511456" />
-    <state x="421" y="115" key="FileChooserDialogImpl" timestamp="1601309441072">
+    <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1602603187482" />
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1609123104605">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1601309441072" />
-    <state width="1237" height="190" key="GridCell.Tab.0.bottom" timestamp="1601320879660">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1609123104605" />
+    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1609123104605">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1601320879660" />
-    <state width="1237" height="190" key="GridCell.Tab.0.center" timestamp="1601320879660">
+    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1609123104605" />
+    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1609123104605">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1601320879660" />
-    <state width="1237" height="190" key="GridCell.Tab.0.left" timestamp="1601320879660">
+    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1609123104605" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1609123104605">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1601320879660" />
-    <state width="1237" height="190" key="GridCell.Tab.0.right" timestamp="1601320879660">
+    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1609123104605" />
+    <state x="233" y="90" key="Vcs.Push.Dialog.v2" timestamp="1602594382736">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1601320879660" />
-    <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1599528260170">
+    <state x="233" y="90" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1602594382736" />
+    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1609122536590">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599528260170" />
-    <state width="1237" height="220" key="GridCell.Tab.1.center" timestamp="1599528260170">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1599528260170" />
-    <state width="1237" height="220" key="GridCell.Tab.1.left" timestamp="1599528260170">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1599528260170" />
-    <state width="1237" height="220" key="GridCell.Tab.1.right" timestamp="1599528260170">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1599528260170" />
-    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1600513200649">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1600513200649" />
+    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1609122536590" />
     <state x="337" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1601309423455">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="337" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1601309423455" />
-    <state x="376" y="253" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598461158535">
+    <state x="459" y="271" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602594342010">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="376" y="253" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.720@0.0.1280.720" timestamp="1598461158535" />
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600513200680">
+    <state x="459" y="271" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1602594342010" />
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1609122536636">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1600513200680" />
-    <state x="91" y="0" key="new project wizard" timestamp="1600047846256">
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1609122536636" />
+    <state x="91" y="0" key="new project wizard" timestamp="1603442306110">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="91" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1600047846256" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1598644318832">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1598644318832" />
+    <state x="91" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1603442306110" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -294,6 +294,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Date/Date.java</url>
+          <line>33</line>
+          <properties class="Date.Date" method="displayDate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
