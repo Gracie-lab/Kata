@@ -10,15 +10,16 @@ public class WeekDay {
     }
     public static String showWeekDayThatCorrespondsToNumber(int number){
         WeekDays weekDay = null;
-        if (checkInput(number) == "") {
-            WeekDays[] weekdays = WeekDays.values();
+        WeekDays[] weekdays = WeekDays.values();
+        if (checkInput(number).equals("")) {
+
             for (WeekDays value : weekdays) {
                 if (value.getValue() == number) {
                     weekDay = value;
+                    return weekDay.name();
                 }
             }
         }
-
-        return weekDay.name();
+        return "Number should be between 1 and 7.";
     }
 }

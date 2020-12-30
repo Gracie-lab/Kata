@@ -23,6 +23,6 @@ class WeekDayTest {
 
     @Test
     void methodCannotTakeNumberGreaterThanDaysOfTheWeek(){
-        assertEquals("Oops we do not have up to %d days a week on our planet", WeekDay.showWeekDayThatCorrespondsToNumber(10));
+        assertEquals("Number should be between 1 and 7.", WeekDay.showWeekDayThatCorrespondsToNumber(10));
     }
 }
