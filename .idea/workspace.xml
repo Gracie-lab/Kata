@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/WeekDay/InvalidArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calendar/CalendarUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Calendar/CalendarUtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/WeekDay/WeekDay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/WeekDay/WeekDay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Chibuzor&amp;I/WeekDay/WeekDayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Chibuzor&amp;I/WeekDay/WeekDayTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WeekDay/WeekDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeekDay/WeekDay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/WeekDay/WeekDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/WeekDay/WeekDayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +16,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -53,25 +50,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Calendar" />
       <recent name="WeekDay" />
       <recent name="ConverterUtils" />
       <recent name="Date" />
       <recent name="smallStore" />
-      <recent name="Factorial" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="smallStore" />
       <recent name="GameOfCraps" />
       <recent name="SalaryCalc" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.WeekDayTest">
+  <component name="RunManager" selected="JUnit.CalendarUtilsTest.showCalendarMethodShouldShowCorrectCurrentDate">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -83,17 +80,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConverterTest.testThatICanConvertMinutesToYearsAndDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalendarUtilsTest.showCalendarMethodShouldShowCorrectCurrentDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ConverterUtils.*" />
+          <option name="PATTERN" value="Calendar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ConverterUtils" />
-      <option name="MAIN_CLASS_NAME" value="ConverterUtils.ConverterTest" />
-      <option name="METHOD_NAME" value="testThatICanConvertMinutesToYearsAndDays" />
+      <option name="PACKAGE_NAME" value="Calendar" />
+      <option name="MAIN_CLASS_NAME" value="Calendar.CalendarUtilsTest" />
+      <option name="METHOD_NAME" value="showCalendarMethodShouldShowCorrectCurrentDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalendarUtilsTest.someTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chibuzor&amp;I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Calendar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Calendar" />
+      <option name="MAIN_CLASS_NAME" value="Calendar.CalendarUtilsTest" />
+      <option name="METHOD_NAME" value="someTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,29 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeekDayTest.testThatWhenIPutANumberIGetCorrespondingWeekDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chibuzor&amp;I" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WeekDay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="WeekDay" />
-      <option name="MAIN_CLASS_NAME" value="WeekDay.WeekDayTest" />
-      <option name="METHOD_NAME" value="testThatWhenIPutANumberIGetCorrespondingWeekDay" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalendarUtilsTest.showCalendarMethodShouldShowCorrectCurrentDate" />
+        <item itemvalue="JUnit.CalendarUtilsTest.someTest" />
         <item itemvalue="JUnit.WeekDayTest" />
         <item itemvalue="JUnit.WeekDayTest.methodCannotTakeNumberGreaterThanDaysOfTheWeek" />
         <item itemvalue="JUnit.WeekDayTest.testThatAnExceptionIsThrownWhenInputIsGreaterThanNumberOfDays" />
-        <item itemvalue="JUnit.WeekDayTest.testThatWhenIPutANumberIGetCorrespondingWeekDay" />
-        <item itemvalue="JUnit.ConverterTest.testThatICanConvertMinutesToYearsAndDays" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +184,7 @@
       <workItem from="1603395840441" duration="2758000" />
       <workItem from="1609122240655" duration="4966000" />
       <workItem from="1609367213687" duration="446000" />
-      <workItem from="1609368083185" duration="4940000" />
+      <workItem from="1609368083185" duration="7779000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
@@ -223,30 +220,30 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1609334066665" />
-    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1609543063612">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1609546722055">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1609543063612" />
-    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1609543063611">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1609546722055" />
+    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1609546722055">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1609543063611" />
-    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1609543063611">
+    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1609546722055" />
+    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1609546722054">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1609543063611" />
-    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1609543063611">
+    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1609546722054" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1609546722055">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1609543063611" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1609546722055" />
     <state x="233" y="90" key="Vcs.Push.Dialog.v2" timestamp="1602594382736">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="233" y="90" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1602594382736" />
-    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1609204561718">
+    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1609545264219">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1609204561718" />
+    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1609545264219" />
     <state x="337" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1601309423455">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -255,10 +252,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="459" y="271" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1602594342010" />
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1609204561743">
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1609545264263">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1609204561743" />
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1609545264263" />
     <state x="91" y="0" key="new project wizard" timestamp="1603442306110">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
