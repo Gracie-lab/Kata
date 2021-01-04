@@ -9,11 +9,11 @@ import java.util.Date;
 public class CalendarUtils {
     private static LocalDateTime dateTime = LocalDateTime.now();
    private static Calendar calendar = Calendar.getInstance();
-   private static int hour;
-   private static int minute;
-   private static int year;
-   private static Month month;
-   private static int day;
+   private static int hour = LocalDateTime.now().getHour();
+   private static int minute = LocalDateTime.now().getMinute();
+   private static int year = LocalDateTime.now().getYear();
+   private static Month month = LocalDateTime.now().getMonth();
+   private static int day = LocalDateTime.now().getDayOfMonth();
 
 
     public static void setCalendarDate(){
@@ -24,9 +24,9 @@ public class CalendarUtils {
         minute = dateTime.getMinute();
     }
     public static String setDate(){
-        year =dateTime.getYear();
-        month = dateTime.getMonth();
-        day = dateTime.getDayOfMonth();
+//        year =dateTime.getYear();
+//        month = dateTime.getMonth();
+//        day = dateTime.getDayOfMonth();
 
         return String.format("%d/%s/%d", year, month, day);
     }
@@ -37,7 +37,8 @@ public class CalendarUtils {
     }
 
     public static String displayCalendarWithTime(){
+
         return String.format("Today's date is %s \r\n The time is %d : %d", setDate(), hour, minute);
-//        return String.format("Today's date is %s. \r\n The time is $d : %d",showCalendar(), hour, minute);
+
     }
 }
