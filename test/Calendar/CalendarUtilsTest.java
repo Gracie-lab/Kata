@@ -43,4 +43,9 @@ class CalendarUtilsTest {
     void showCalendarMethodShouldShowCorrectCurrentDate(){
         assertEquals(2021, CalendarUtils.showCalendar().getWeekYear());
     }
+
+    @Test
+    void showCalendarWithTimeTest(){
+        System.out.println(CalendarUtils.displayCalendarWithTime());
+    }
 }
