@@ -48,4 +48,15 @@ class CalendarUtilsTest {
     void showCalendarWithTimeTest(){
         System.out.println(CalendarUtils.displayCalendarWithTime());
     }
+
+    @Test
+    void testThatICanCheckWhatDateIsFewDaysFromNow(){
+        assertEquals("10 : 1 : 2021", CalendarUtils.whatDateIsFewDaysFromNow(5));
+        System.out.println(CalendarUtils.whatDateIsFewDaysFromNow(30));
+    }
+
+    @Test
+    void testThatProgramWillPrintCorrectDateIfFewDaysExceedMontEnd(){
+        assertEquals("04 : 2 : 2021", CalendarUtils.whatDateIsFewDaysFromNow(30));
+    }
 }
