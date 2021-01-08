@@ -6,6 +6,8 @@ import java.time.Month;
 import java.util.Calendar;
 import java.util.Date;
 
+//Playing around with the calendar class here. Enjoy.
+
 public class CalendarUtils {
     private static LocalDateTime dateTime = LocalDateTime.now();
    private static Calendar calendar = Calendar.getInstance();
@@ -23,7 +25,7 @@ public class CalendarUtils {
         hour = dateTime.getHour();
         minute = dateTime.getMinute();
     }
-    public static String setDate(){
+    public static String showDate(){
 //        year =dateTime.getYear();
 //        month = dateTime.getMonth();
 //        day = dateTime.getDayOfMonth();
@@ -38,7 +40,7 @@ public class CalendarUtils {
 
     public static String displayCalendarWithTime(){
 
-        return String.format("Today's date is %s \r\n The time is %d : %d", setDate(), hour, minute);
+        return String.format("Today's date is %s \r\n The time is %d : %d", showDate(), hour, minute);
 
     }
 
@@ -49,6 +51,7 @@ public class CalendarUtils {
             newDate =  newDate % month.maxLength();
             newMonth = month.plus(1);
         }
-        return String.format("%02d : %d : %d", newDate, newMonth.getValue(), year) ;
+        String response = String.format("%02d : %d : %d", newDate, newMonth.getValue(), year) ;
+        return response;
     }
 }
