@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codeExercises/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeExercises/StreamsLambdas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/codeExercises/Average.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Chibuzor&amp;I/codeExercises/AverageTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/codeExercises/AverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/codeExercises/AverageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,7 @@
       <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AverageTest.testThatICanFindAverageOfALongListOfNumbers">
+  <component name="RunManager" selected="JUnit.AverageTest.testThatAllLettersInAListAreConvertedToUpperCase">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -98,6 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AverageTest.testThatAllLettersInAListAreConvertedToUpperCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chibuzor&amp;I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codeExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codeExercises" />
+      <option name="MAIN_CLASS_NAME" value="codeExercises.AverageTest" />
+      <option name="METHOD_NAME" value="testThatAllLettersInAListAreConvertedToUpperCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AverageTest.testThatICanFindAverageOfALongListOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
@@ -109,22 +126,6 @@
       <option name="PACKAGE_NAME" value="codeExercises" />
       <option name="MAIN_CLASS_NAME" value="codeExercises.AverageTest" />
       <option name="METHOD_NAME" value="testThatICanFindAverageOfALongListOfNumbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalendarUtilsTest.showCalendarWithTimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chibuzor&amp;I" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Calendar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Calendar" />
-      <option name="MAIN_CLASS_NAME" value="Calendar.CalendarUtilsTest" />
-      <option name="METHOD_NAME" value="showCalendarWithTimeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AverageTest.testThatAllLettersInAListAreConvertedToUpperCase" />
         <item itemvalue="JUnit.AverageTest.testThatICanFindAverageOfALongListOfNumbers" />
         <item itemvalue="JUnit.AverageTest.tesThatICanFindAverageOfNumbersInAList" />
         <item itemvalue="JUnit.CalendarUtilsTest.testThatICanCheckWhatDateIsFewDaysFromNow" />
         <item itemvalue="JUnit.CalendarUtilsTest.testThatProgramWillPrintCorrectDateIfFewDaysExceedMontEnd" />
-        <item itemvalue="JUnit.CalendarUtilsTest.showCalendarWithTimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +191,7 @@
       <workItem from="1609368083185" duration="10996000" />
       <workItem from="1609798665491" duration="1992000" />
       <workItem from="1609885357511" duration="2933000" />
-      <workItem from="1610145840658" duration="3474000" />
+      <workItem from="1610145840658" duration="4812000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
@@ -210,10 +211,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="added Inventory and Order class" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1609886918094">
+    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1610350612220">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.720@0.0.1280.720" timestamp="1609886918094" />
+    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.720@0.0.1280.720" timestamp="1610350612220" />
     <state x="125" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1603396106467">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -234,22 +235,38 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1609334066665" />
-    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1610150670465">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1610350460332">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1610150670465" />
-    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1610150670464">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1610350460332" />
+    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1610350460332">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1610150670464" />
-    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1610150670464">
+    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1610350460332" />
+    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1610350460332">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1610150670464" />
-    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1610150670464">
+    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1610350460332" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1610350460332">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1610150670464" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1610350460332" />
+    <state width="1237" height="212" key="GridCell.Tab.1.bottom" timestamp="1610350281151">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="212" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1610350281151" />
+    <state width="1237" height="212" key="GridCell.Tab.1.center" timestamp="1610350281151">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="212" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1610350281151" />
+    <state width="1237" height="212" key="GridCell.Tab.1.left" timestamp="1610350281151">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="212" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1610350281151" />
+    <state width="1237" height="212" key="GridCell.Tab.1.right" timestamp="1610350281151">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="212" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1610350281151" />
     <state x="233" y="90" key="Vcs.Push.Dialog.v2" timestamp="1602594382736">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

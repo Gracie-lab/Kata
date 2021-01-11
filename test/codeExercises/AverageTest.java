@@ -45,4 +45,19 @@ class AverageTest {
 
         System.out.println(average.findAverage(numbers));
     }
+
+    @Test
+    void testThatAllLettersInAListAreConvertedToUpperCase(){
+        List<String> words = new ArrayList<>();
+        words.add("Hello");
+        words.add("world");
+
+        StringBuilder stringBuilder = new StringBuilder();
+
+        for(String word : words ){
+            stringBuilder.append(word.toUpperCase());
+        }
+        assertEquals("[HELLO WORLD]", average.upperCase(words));
+
+    }
 }
