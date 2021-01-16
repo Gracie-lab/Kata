@@ -17,4 +17,8 @@ public class StreamsLambdas {
                 map(String:: toUpperCase).
                 collect(Collectors.toList());
     }
+
+    public List<String> findWordStartingWithLetter(List<String> words, String letter){
+      return  words.stream().filter(word -> word.startsWith(letter)).collect(Collectors.toList());
+    }
 }

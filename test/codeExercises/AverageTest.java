@@ -60,4 +60,12 @@ class AverageTest {
         assertEquals("[HELLO WORLD]", average.upperCase(words));
 
     }
+
+    @Test
+    @DisplayName("Test that I can search for words that start with a particular letter in a list of words")
+    void searchForWordsInList(){
+        List<String> words = new ArrayList<>();
+        words.add("Some");
+        words.add("ladies");
+    }
 }
