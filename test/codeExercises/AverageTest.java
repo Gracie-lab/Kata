@@ -67,5 +67,8 @@ class AverageTest {
         List<String> words = new ArrayList<>();
         words.add("Some");
         words.add("ladies");
+        words.add("love");
+        words.add("lies");
+        assertEquals(3, average.findWordStartingWithLetter(words, "l").size());
     }
 }

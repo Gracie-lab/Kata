@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/codeExercises/AverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/codeExercises/AverageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,34 @@
       <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AverageTest.testThatAllLettersInAListAreConvertedToUpperCase">
+  <component name="RunManager" selected="JUnit.AverageTest.searchForWordsInList">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AverageTest.searchForWordsInList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chibuzor&amp;I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codeExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codeExercises" />
+      <option name="MAIN_CLASS_NAME" value="codeExercises.AverageTest" />
+      <option name="METHOD_NAME" value="searchForWordsInList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AverageTest.tesThatICanFindAverageOfNumbersInAList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
@@ -131,29 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarUtilsTest.testThatProgramWillPrintCorrectDateIfFewDaysExceedMontEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chibuzor&amp;I" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Calendar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Calendar" />
-      <option name="MAIN_CLASS_NAME" value="Calendar.CalendarUtilsTest" />
-      <option name="METHOD_NAME" value="testThatProgramWillPrintCorrectDateIfFewDaysExceedMontEnd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AverageTest.searchForWordsInList" />
         <item itemvalue="JUnit.AverageTest.testThatAllLettersInAListAreConvertedToUpperCase" />
         <item itemvalue="JUnit.AverageTest.testThatICanFindAverageOfALongListOfNumbers" />
         <item itemvalue="JUnit.AverageTest.tesThatICanFindAverageOfNumbersInAList" />
         <item itemvalue="JUnit.CalendarUtilsTest.testThatICanCheckWhatDateIsFewDaysFromNow" />
-        <item itemvalue="JUnit.CalendarUtilsTest.testThatProgramWillPrintCorrectDateIfFewDaysExceedMontEnd" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +188,7 @@
       <workItem from="1609798665491" duration="1992000" />
       <workItem from="1609885357511" duration="2933000" />
       <workItem from="1610145840658" duration="5627000" />
+      <workItem from="1610758798551" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
