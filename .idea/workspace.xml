@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/codeExercises/CeaserCipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/codeExercises/AverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/codeExercises/AverageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +15,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,13 +68,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.AverageTest.searchForWordsInList">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,7 +190,8 @@
       <workItem from="1609798665491" duration="1992000" />
       <workItem from="1609885357511" duration="2933000" />
       <workItem from="1610145840658" duration="5627000" />
-      <workItem from="1610758798551" duration="1121000" />
+      <workItem from="1610758798551" duration="1409000" />
+      <workItem from="1610842212609" duration="527000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
@@ -232,22 +235,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1609334066665" />
-    <state width="1237" height="212" key="GridCell.Tab.0.bottom" timestamp="1610404900465">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1610834027566">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="212" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1610404900465" />
-    <state width="1237" height="212" key="GridCell.Tab.0.center" timestamp="1610404900465">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1610834027566" />
+    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1610834027566">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="212" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1610404900465" />
-    <state width="1237" height="212" key="GridCell.Tab.0.left" timestamp="1610404900465">
+    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1610834027566" />
+    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1610834027565">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="212" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1610404900465" />
-    <state width="1237" height="212" key="GridCell.Tab.0.right" timestamp="1610404900465">
+    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1610834027565" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1610834027566">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="212" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1610404900465" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1610834027566" />
     <state width="1237" height="212" key="GridCell.Tab.1.bottom" timestamp="1610404900465">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -280,10 +283,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1610149807133" />
-    <state x="91" y="0" key="new project wizard" timestamp="1609891498215">
+    <state x="91" y="0" key="new project wizard" timestamp="1610834024828">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="91" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1609891498215" />
+    <state x="91" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1610834024828" />
     <state x="427" y="103" key="refactoring.ChangeSignatureDialog" timestamp="1609204029551">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
