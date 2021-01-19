@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codeExercises/CeaserCipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/codeExercises/CeaserCipherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codeExercises/CeaserCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeExercises/CeaserCipher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -43,7 +44,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/test" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test/codeExercises" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../intellij/Kata" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -55,19 +56,19 @@
       <recent name="ConverterUtils" />
       <recent name="Date" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="smallStore" />
       <recent name="GameOfCraps" />
       <recent name="SalaryCalc" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.AverageTest.searchForWordsInList">
+  <component name="RunManager" selected="JUnit.CeaserCipherTest.testThatICanEncryptAMessageUsingCeaserCipher">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -145,17 +146,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarUtilsTest.testThatICanCheckWhatDateIsFewDaysFromNow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CeaserCipherTest.testThatICanEncryptAMessageUsingCeaserCipher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Calendar.*" />
+          <option name="PATTERN" value="codeExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Calendar" />
-      <option name="MAIN_CLASS_NAME" value="Calendar.CalendarUtilsTest" />
-      <option name="METHOD_NAME" value="testThatICanCheckWhatDateIsFewDaysFromNow" />
+      <option name="PACKAGE_NAME" value="codeExercises" />
+      <option name="MAIN_CLASS_NAME" value="codeExercises.CeaserCipherTest" />
+      <option name="METHOD_NAME" value="testThatICanEncryptAMessageUsingCeaserCipher" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CeaserCipherTest.testThatICanEncryptAMessageUsingCeaserCipher" />
         <item itemvalue="JUnit.AverageTest.searchForWordsInList" />
         <item itemvalue="JUnit.AverageTest.testThatAllLettersInAListAreConvertedToUpperCase" />
         <item itemvalue="JUnit.AverageTest.testThatICanFindAverageOfALongListOfNumbers" />
         <item itemvalue="JUnit.AverageTest.tesThatICanFindAverageOfNumbersInAList" />
-        <item itemvalue="JUnit.CalendarUtilsTest.testThatICanCheckWhatDateIsFewDaysFromNow" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +192,9 @@
       <workItem from="1609885357511" duration="2933000" />
       <workItem from="1610145840658" duration="5627000" />
       <workItem from="1610758798551" duration="1409000" />
-      <workItem from="1610842212609" duration="527000" />
+      <workItem from="1610842212609" duration="1357000" />
+      <workItem from="1610859417416" duration="1781000" />
+      <workItem from="1611015790174" duration="2157000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
@@ -235,22 +238,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1609334066665" />
-    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1610834027566">
+    <state width="597" height="170" key="GridCell.Tab.0.bottom" timestamp="1610943741525">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1610834027566" />
-    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1610834027566">
+    <state width="597" height="170" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1610943741525" />
+    <state width="597" height="170" key="GridCell.Tab.0.center" timestamp="1610943741524">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1610834027566" />
-    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1610834027565">
+    <state width="597" height="170" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1610943741524" />
+    <state width="597" height="170" key="GridCell.Tab.0.left" timestamp="1610943741524">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1610834027565" />
-    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1610834027566">
+    <state width="597" height="170" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1610943741524" />
+    <state width="597" height="170" key="GridCell.Tab.0.right" timestamp="1610943741524">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1610834027566" />
+    <state width="597" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1610943741524" />
     <state width="1237" height="212" key="GridCell.Tab.1.bottom" timestamp="1610404900465">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -271,18 +274,18 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="233" y="90" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1602594382736" />
-    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1610149807106">
+    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1610859545422">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1610149807106" />
+    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1610859545422" />
     <state x="459" y="271" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602594342010">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="459" y="271" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1602594342010" />
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610149807133">
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610859545443">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1610149807133" />
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1610859545443" />
     <state x="91" y="0" key="new project wizard" timestamp="1610834024828">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -291,10 +294,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="427" y="103" key="refactoring.ChangeSignatureDialog/0.0.1280.720@0.0.1280.720" timestamp="1609204029551" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1609885993192">
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1610860416026">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1609885993192" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1610860416026" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
