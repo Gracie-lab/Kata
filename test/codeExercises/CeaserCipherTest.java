@@ -21,6 +21,6 @@ class CeaserCipherTest {
 
     @Test
     void testThatICanEncryptAMessageUsingCeaserCipher(){
-        System.out.println(ceaserCipher.encodeMessage("Some day", 5));
+        System.out.println(ceaserCipher.encodeMessage("Learn by doing", 5));
     }
 }

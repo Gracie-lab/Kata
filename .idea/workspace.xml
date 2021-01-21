@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/codeExercises/CeaserCipherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codeExercises/CeaserCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeExercises/CeaserCipher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,15 +67,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CeaserCipherTest.testThatICanEncryptAMessageUsingCeaserCipher">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -194,7 +190,7 @@
       <workItem from="1610758798551" duration="1409000" />
       <workItem from="1610842212609" duration="1357000" />
       <workItem from="1610859417416" duration="1781000" />
-      <workItem from="1611015790174" duration="2157000" />
+      <workItem from="1611015790174" duration="3514000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
@@ -238,22 +234,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1609334066665" />
-    <state width="597" height="170" key="GridCell.Tab.0.bottom" timestamp="1610943741525">
+    <state width="1237" height="167" key="GridCell.Tab.0.bottom" timestamp="1611025086546">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="597" height="170" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1610943741525" />
-    <state width="597" height="170" key="GridCell.Tab.0.center" timestamp="1610943741524">
+    <state width="1237" height="167" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1611025086546" />
+    <state width="1237" height="167" key="GridCell.Tab.0.center" timestamp="1611025086545">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="597" height="170" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1610943741524" />
-    <state width="597" height="170" key="GridCell.Tab.0.left" timestamp="1610943741524">
+    <state width="1237" height="167" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1611025086545" />
+    <state width="1237" height="167" key="GridCell.Tab.0.left" timestamp="1611025086545">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="597" height="170" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1610943741524" />
-    <state width="597" height="170" key="GridCell.Tab.0.right" timestamp="1610943741524">
+    <state width="1237" height="167" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1611025086545" />
+    <state width="1237" height="167" key="GridCell.Tab.0.right" timestamp="1611025086545">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="597" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1610943741524" />
+    <state width="1237" height="167" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1611025086545" />
     <state width="1237" height="212" key="GridCell.Tab.1.bottom" timestamp="1610404900465">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
