@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Turtle/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Turtle/Pen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Turtle/PenOrientation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Turtle/SketchPad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Turtle/Turtle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Turtle/TurtleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -42,31 +48,34 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/test/codeExercises" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../intellij/Kata" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Semicolon/java/Turtle" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Turtle" />
       <recent name="codeExercises" />
       <recent name="Calendar" />
       <recent name="WeekDay" />
       <recent name="ConverterUtils" />
-      <recent name="Date" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="smallStore" />
       <recent name="GameOfCraps" />
       <recent name="SalaryCalc" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.CeaserCipherTest.testThatICanEncryptAMessageUsingCeaserCipher">
+  <component name="RunManager" selected="JUnit.TurtleTest.turtleCanTurnLeft">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -78,81 +87,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AverageTest.searchForWordsInList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TurtleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codeExercises.*" />
+          <option name="PATTERN" value="Turtle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="codeExercises" />
-      <option name="MAIN_CLASS_NAME" value="codeExercises.AverageTest" />
-      <option name="METHOD_NAME" value="searchForWordsInList" />
+      <option name="PACKAGE_NAME" value="Turtle" />
+      <option name="MAIN_CLASS_NAME" value="Turtle.TurtleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurtleTest.turtleCanTurnLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chibuzor&amp;I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Turtle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Turtle" />
+      <option name="MAIN_CLASS_NAME" value="Turtle.TurtleTest" />
+      <option name="METHOD_NAME" value="turtleCanTurnLeft" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AverageTest.tesThatICanFindAverageOfNumbersInAList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TurtleTest.turtleCanTurnRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codeExercises.*" />
+          <option name="PATTERN" value="Turtle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="codeExercises" />
-      <option name="MAIN_CLASS_NAME" value="codeExercises.AverageTest" />
-      <option name="METHOD_NAME" value="tesThatICanFindAverageOfNumbersInAList" />
+      <option name="PACKAGE_NAME" value="Turtle" />
+      <option name="MAIN_CLASS_NAME" value="Turtle.TurtleTest" />
+      <option name="METHOD_NAME" value="turtleCanTurnRight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AverageTest.testThatAllLettersInAListAreConvertedToUpperCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TurtleTest.turtleHasAPen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codeExercises.*" />
+          <option name="PATTERN" value="Turtle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="codeExercises" />
-      <option name="MAIN_CLASS_NAME" value="codeExercises.AverageTest" />
-      <option name="METHOD_NAME" value="testThatAllLettersInAListAreConvertedToUpperCase" />
+      <option name="PACKAGE_NAME" value="Turtle" />
+      <option name="MAIN_CLASS_NAME" value="Turtle.TurtleTest" />
+      <option name="METHOD_NAME" value="turtleHasAPen" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AverageTest.testThatICanFindAverageOfALongListOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TurtleTest.turtle_Pen_Can_be_up" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codeExercises.*" />
+          <option name="PATTERN" value="Turtle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="codeExercises" />
-      <option name="MAIN_CLASS_NAME" value="codeExercises.AverageTest" />
-      <option name="METHOD_NAME" value="testThatICanFindAverageOfALongListOfNumbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CeaserCipherTest.testThatICanEncryptAMessageUsingCeaserCipher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chibuzor&amp;I" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codeExercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="codeExercises" />
-      <option name="MAIN_CLASS_NAME" value="codeExercises.CeaserCipherTest" />
-      <option name="METHOD_NAME" value="testThatICanEncryptAMessageUsingCeaserCipher" />
+      <option name="PACKAGE_NAME" value="Turtle" />
+      <option name="MAIN_CLASS_NAME" value="Turtle.TurtleTest" />
+      <option name="METHOD_NAME" value="turtle_Pen_Can_be_up" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CeaserCipherTest.testThatICanEncryptAMessageUsingCeaserCipher" />
-        <item itemvalue="JUnit.AverageTest.searchForWordsInList" />
-        <item itemvalue="JUnit.AverageTest.testThatAllLettersInAListAreConvertedToUpperCase" />
-        <item itemvalue="JUnit.AverageTest.testThatICanFindAverageOfALongListOfNumbers" />
-        <item itemvalue="JUnit.AverageTest.tesThatICanFindAverageOfNumbersInAList" />
+        <item itemvalue="JUnit.TurtleTest.turtleCanTurnLeft" />
+        <item itemvalue="JUnit.TurtleTest.turtleCanTurnRight" />
+        <item itemvalue="JUnit.TurtleTest" />
+        <item itemvalue="JUnit.TurtleTest.turtleHasAPen" />
+        <item itemvalue="JUnit.TurtleTest.turtle_Pen_Can_be_up" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +199,7 @@
       <workItem from="1610842212609" duration="1357000" />
       <workItem from="1610859417416" duration="1781000" />
       <workItem from="1611015790174" duration="3514000" />
+      <workItem from="1611230856107" duration="7527000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
@@ -210,14 +219,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="added Inventory and Order class" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1611242991585">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.720@0.0.1280.720" timestamp="1611242991585" />
     <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1610350612220">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.720@0.0.1280.720" timestamp="1610350612220" />
-    <state x="125" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1603396106467">
+    <state x="125" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1611244532081">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="125" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1603396106467" />
+    <state x="125" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1611244532081" />
     <state x="335" y="277" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602594473176">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -230,26 +243,26 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1602594377105" />
-    <state x="421" y="115" key="FileChooserDialogImpl" timestamp="1609334066665">
+    <state x="421" y="115" key="FileChooserDialogImpl" timestamp="1611241292658">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1609334066665" />
-    <state width="1237" height="167" key="GridCell.Tab.0.bottom" timestamp="1611025086546">
+    <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1611241292658" />
+    <state width="1237" height="134" key="GridCell.Tab.0.bottom" timestamp="1611243460235">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="167" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1611025086546" />
-    <state width="1237" height="167" key="GridCell.Tab.0.center" timestamp="1611025086545">
+    <state width="1237" height="134" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1611243460235" />
+    <state width="1237" height="134" key="GridCell.Tab.0.center" timestamp="1611243460235">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="167" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1611025086545" />
-    <state width="1237" height="167" key="GridCell.Tab.0.left" timestamp="1611025086545">
+    <state width="1237" height="134" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1611243460235" />
+    <state width="1237" height="134" key="GridCell.Tab.0.left" timestamp="1611243460234">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="167" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1611025086545" />
-    <state width="1237" height="167" key="GridCell.Tab.0.right" timestamp="1611025086545">
+    <state width="1237" height="134" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1611243460234" />
+    <state width="1237" height="134" key="GridCell.Tab.0.right" timestamp="1611243460235">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="167" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1611025086545" />
+    <state width="1237" height="134" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1611243460235" />
     <state width="1237" height="212" key="GridCell.Tab.1.bottom" timestamp="1610404900465">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -270,18 +283,18 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="233" y="90" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1602594382736" />
-    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1610859545422">
+    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1611238478023">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1610859545422" />
+    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1611238478023" />
     <state x="459" y="271" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602594342010">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="459" y="271" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1602594342010" />
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610859545443">
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1611238478060">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1610859545443" />
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1611238478060" />
     <state x="91" y="0" key="new project wizard" timestamp="1610834024828">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -302,6 +315,11 @@
           <url>file://$PROJECT_DIR$/test_binary/Binary/BinaryTest.java</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Turtle/Turtle.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/test/GameOfCraps/DieTest.java</url>
