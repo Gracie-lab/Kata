@@ -6,12 +6,14 @@ import java.util.List;
 
 public class TicTacToe {
 
+    Values[][] boardFloor = new Values[3][3];
     private Player currentPlayer;
-//   private Board board;
+   private Board board = new Board(boardFloor);
     private List<Player> players = new ArrayList<>();
 
+
     public Board getBoard() {
-        return new Board(new Values[3][3]);
+        return board;
     }
 
 

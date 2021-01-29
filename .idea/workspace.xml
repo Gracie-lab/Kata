@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/TicTacToe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/Chibuzor&amp;I/TicTacToe/TicTacToeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Chibuzor&amp;I/TicTacToe/TicTacToeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TicTacToe/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/TicTacToe/TicTacToeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TicTacToe/TicTacToeTest.java" afterDir="false" />
@@ -76,7 +77,7 @@
       <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TicTacToeTest.testThatPlayerCanMove">
+  <component name="RunManager" selected="JUnit.TicTacToeTest.playerMarksBoardWhenPlayerMoves">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -101,6 +102,22 @@
       <option name="PACKAGE_NAME" value="TicTacToe" />
       <option name="MAIN_CLASS_NAME" value="TicTacToe.TicTacToeTest" />
       <option name="METHOD_NAME" value="gameCanSetPlayersTurnToPlay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicTacToeTest.playerMarksBoardWhenPlayerMoves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chibuzor&amp;I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TicTacToe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TicTacToe" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToe.TicTacToeTest" />
+      <option name="METHOD_NAME" value="playerMarksBoardWhenPlayerMoves" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,22 +155,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToeTest.testThatPlayersCanBeAddedToGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chibuzor&amp;I" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TicTacToe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TicTacToe" />
-      <option name="MAIN_CLASS_NAME" value="TicTacToe.TicTacToeTest" />
-      <option name="METHOD_NAME" value="testThatPlayersCanBeAddedToGame" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TicTacToeTest.test_tictactoe_has_two_players" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
@@ -172,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TicTacToeTest.playerMarksBoardWhenPlayerMoves" />
         <item itemvalue="JUnit.TicTacToeTest.testThatPlayerCanMove" />
         <item itemvalue="JUnit.TicTacToeTest.playersCurrentPositionCanBeTracked" />
         <item itemvalue="JUnit.TicTacToeTest.gameCanSetPlayersTurnToPlay" />
         <item itemvalue="JUnit.TicTacToeTest.test_tictactoe_has_two_players" />
-        <item itemvalue="JUnit.TicTacToeTest.testThatPlayersCanBeAddedToGame" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +207,7 @@
       <workItem from="1611230856107" duration="8367000" />
       <workItem from="1611351322798" duration="9231000" />
       <workItem from="1611635095957" duration="1821000" />
-      <workItem from="1611880285281" duration="9423000" />
+      <workItem from="1611880285281" duration="11004000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
@@ -230,10 +231,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="121" y="0" key="#Project_Structure/0.0.1280.720@0.0.1280.720" timestamp="1611242991585" />
-    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1610350612220">
+    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1611962835339">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.720@0.0.1280.720" timestamp="1610350612220" />
+    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.720@0.0.1280.720" timestamp="1611962835339" />
     <state x="125" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1611244532081">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -246,22 +247,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1611885374444" />
-    <state width="1237" height="149" key="GridCell.Tab.0.bottom" timestamp="1611955412403">
+    <state width="1237" height="148" key="GridCell.Tab.0.bottom" timestamp="1611962336384">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="149" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1611955412403" />
-    <state width="1237" height="149" key="GridCell.Tab.0.center" timestamp="1611955412402">
+    <state width="1237" height="148" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1611962336384" />
+    <state width="1237" height="148" key="GridCell.Tab.0.center" timestamp="1611962336383">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="149" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1611955412402" />
-    <state width="1237" height="149" key="GridCell.Tab.0.left" timestamp="1611955412402">
+    <state width="1237" height="148" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1611962336383" />
+    <state width="1237" height="148" key="GridCell.Tab.0.left" timestamp="1611962336383">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="149" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1611955412402" />
-    <state width="1237" height="149" key="GridCell.Tab.0.right" timestamp="1611955412402">
+    <state width="1237" height="148" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1611962336383" />
+    <state width="1237" height="148" key="GridCell.Tab.0.right" timestamp="1611962336383">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="149" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1611955412402" />
+    <state width="1237" height="148" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1611962336383" />
     <state width="1237" height="212" key="GridCell.Tab.1.bottom" timestamp="1610404900465">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

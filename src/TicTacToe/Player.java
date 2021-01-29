@@ -26,6 +26,10 @@ public class Player {
         yCoordinate = yCoordinate + numberOfMovesToYDirection;
     }
 
+    public void sketch(Board board, Values value) {
+        board.getBoardFloor()[xCoordinate][yCoordinate] = value;
+    }
+
 
 //    public Object getPlayersCurrentPosition() {
 //        return currentLocation;

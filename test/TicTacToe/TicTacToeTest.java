@@ -80,6 +80,17 @@ class TicTacToeTest {
         assertEquals(2, ticTacToe.getCurrentPlayer().getyCoordinate());
 
     }
+    @Test
+    void playerMarksBoardWhenPlayerMoves(){
+        Player x = new Player();
+        ticTacToe.setCurrentPlayer(x);
+        ticTacToe.getCurrentPlayer().move(1,2);
+        ticTacToe.getCurrentPlayer().sketch(ticTacToe.getBoard(), Values.X);
+
+        assertEquals(Values.X, ticTacToe.getBoard().getBoardFloor()
+                                    [ticTacToe.getCurrentPlayer().getxCoordinate()]
+                                        [ticTacToe.getCurrentPlayer().getyCoordinate()]);
+    }
 
 //    @Test
 //    void playerCanMove(){
