@@ -39,4 +39,19 @@ class TicTacToeTest {
             }
         }
     }
+
+    @Test
+    void testThatPlayersCanBeAddedToGame(){
+        Player player = new Player();
+        ticTacToe.addPlayer(player);
+        assertNotNull(ticTacToe.getPlayers());
+    }
+
+    @Test
+    void test_tictactoe_has_two_players(){
+        ticTacToe.addPlayer(new Player());
+        ticTacToe.addPlayer(new Player());
+        assertEquals(2, ticTacToe.getPlayers().size());
+    }
+
 }
