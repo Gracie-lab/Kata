@@ -6,6 +6,7 @@ import java.util.List;
 
 public class TicTacToe {
 
+    private Player currentPlayer;
 //   private Board board;
     private List<Player> players = new ArrayList<>();
 
@@ -21,5 +22,17 @@ public class TicTacToe {
 
     public void addPlayer(Player player) {
         players.add(player);
+    }
+
+    public Player getCurrentPlayer() {
+        return currentPlayer;
+    }
+
+    public void setCurrentPlayer(Player player) {
+        this.currentPlayer = player;
+    }
+
+    public void move(int numberOfMovesToXDirection , int numberOfMovesToYDirection) {
+
     }
 }

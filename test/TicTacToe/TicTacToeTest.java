@@ -54,4 +54,36 @@ class TicTacToeTest {
         assertEquals(2, ticTacToe.getPlayers().size());
     }
 
+    @Test
+    void gameCanSetPlayersTurnToPlay(){
+        ticTacToe.setCurrentPlayer(new Player());
+        Player player = ticTacToe.getCurrentPlayer();
+        assertNotNull(player);
+    }
+
+    @Test
+    void playersCurrentPositionCanBeTracked(){
+        ticTacToe.setCurrentPlayer(new Player());
+        ticTacToe.getCurrentPlayer().setxCoordinate(1);
+        ticTacToe.getCurrentPlayer().setyCoordinate(0);
+        assertEquals(1,ticTacToe.getCurrentPlayer().getxCoordinate());
+        assertEquals(0, ticTacToe.getCurrentPlayer().getyCoordinate());
+    }
+
+    @Test
+    void testThatPlayerCanMove(){
+        ticTacToe.setCurrentPlayer(new Player());
+        ticTacToe.getCurrentPlayer().setxCoordinate(0);
+        ticTacToe.getCurrentPlayer().setyCoordinate(1);
+        ticTacToe.getCurrentPlayer().move(0, 1);
+        assertEquals(0, ticTacToe.getCurrentPlayer().getxCoordinate());
+        assertEquals(2, ticTacToe.getCurrentPlayer().getyCoordinate());
+
+    }
+
+//    @Test
+//    void playerCanMove(){
+//        ticTacToe.getCurrentPlayer().move(1);
+//    }
+
 }
