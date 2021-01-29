@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Turtle/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Turtle/Pen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Turtle/PenOrientation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Turtle/SketchPad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Turtle/Turtle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Turtle/TurtleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Values.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TicTacToe/TicTacToeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Turtle/SketchPadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/Turtle/Turtle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/Turtle/Turtle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Chibuzor&amp;I/Turtle/TurtleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Chibuzor&amp;I/Turtle/TurtleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turtle/Turtle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turtle/Turtle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Turtle/TurtleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Turtle/TurtleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Semicolon/java/Turtle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Semicolon/java/Pattern" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -57,13 +60,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="TicTacToe" />
       <recent name="Turtle" />
       <recent name="codeExercises" />
       <recent name="Calendar" />
       <recent name="WeekDay" />
-      <recent name="ConverterUtils" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="TicTacToe" />
       <recent name="smallStore" />
       <recent name="GameOfCraps" />
       <recent name="SalaryCalc" />
@@ -75,82 +79,85 @@
       <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TurtleTest.turtleCanTurnLeft">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TicTacToeTest.testThatBoardFloorIsEmptyByDefault">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurtleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicTacToeTest.testThatBoardFloorIsEmptyByDefault" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Turtle.*" />
+          <option name="PATTERN" value="TicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Turtle" />
-      <option name="MAIN_CLASS_NAME" value="Turtle.TurtleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TurtleTest.turtleCanTurnLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chibuzor&amp;I" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Turtle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Turtle" />
-      <option name="MAIN_CLASS_NAME" value="Turtle.TurtleTest" />
-      <option name="METHOD_NAME" value="turtleCanTurnLeft" />
+      <option name="PACKAGE_NAME" value="TicTacToe" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToe.TicTacToeTest" />
+      <option name="METHOD_NAME" value="testThatBoardFloorIsEmptyByDefault" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurtleTest.turtleCanTurnRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicTacToeTest.testThatBoardIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Turtle.*" />
+          <option name="PATTERN" value="TicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Turtle" />
-      <option name="MAIN_CLASS_NAME" value="Turtle.TurtleTest" />
-      <option name="METHOD_NAME" value="turtleCanTurnRight" />
+      <option name="PACKAGE_NAME" value="TicTacToe" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToe.TicTacToeTest" />
+      <option name="METHOD_NAME" value="testThatBoardIsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurtleTest.turtleHasAPen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicTacToeTest.testThatTicTacToeObjectIsNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Turtle.*" />
+          <option name="PATTERN" value="TicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Turtle" />
-      <option name="MAIN_CLASS_NAME" value="Turtle.TurtleTest" />
-      <option name="METHOD_NAME" value="turtleHasAPen" />
+      <option name="PACKAGE_NAME" value="TicTacToe" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToe.TicTacToeTest" />
+      <option name="METHOD_NAME" value="testThatTicTacToeObjectIsNotNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurtleTest.turtle_Pen_Can_be_up" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicTacToeTest.ticTacToeHasABoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chibuzor&amp;I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TicTacToe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TicTacToe" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToe.TicTacToeTest" />
+      <option name="METHOD_NAME" value="ticTacToeHasABoard" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurtleTest.testThatTurtleDraws" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
@@ -160,7 +167,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Turtle" />
       <option name="MAIN_CLASS_NAME" value="Turtle.TurtleTest" />
-      <option name="METHOD_NAME" value="turtle_Pen_Can_be_up" />
+      <option name="METHOD_NAME" value="testThatTurtleDraws" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TurtleTest.turtleCanTurnLeft" />
-        <item itemvalue="JUnit.TurtleTest.turtleCanTurnRight" />
-        <item itemvalue="JUnit.TurtleTest" />
-        <item itemvalue="JUnit.TurtleTest.turtleHasAPen" />
-        <item itemvalue="JUnit.TurtleTest.turtle_Pen_Can_be_up" />
+        <item itemvalue="JUnit.TicTacToeTest.testThatBoardFloorIsEmptyByDefault" />
+        <item itemvalue="JUnit.TicTacToeTest.testThatBoardIsEmpty" />
+        <item itemvalue="JUnit.TicTacToeTest.ticTacToeHasABoard" />
+        <item itemvalue="JUnit.TicTacToeTest.testThatTicTacToeObjectIsNotNull" />
+        <item itemvalue="JUnit.TurtleTest.testThatTurtleDraws" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +206,10 @@
       <workItem from="1610842212609" duration="1357000" />
       <workItem from="1610859417416" duration="1781000" />
       <workItem from="1611015790174" duration="3514000" />
-      <workItem from="1611230856107" duration="7527000" />
+      <workItem from="1611230856107" duration="8367000" />
+      <workItem from="1611351322798" duration="9231000" />
+      <workItem from="1611635095957" duration="1821000" />
+      <workItem from="1611880285281" duration="2378000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
@@ -231,38 +241,30 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="125" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1611244532081" />
-    <state x="335" y="277" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602594473176">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="335" y="277" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.720@0.0.1280.720" timestamp="1602594473176" />
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610349493450">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1610349493450" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1602594377105">
+    <state x="421" y="115" key="FileChooserDialogImpl" timestamp="1611885374444">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1602594377105" />
-    <state x="421" y="115" key="FileChooserDialogImpl" timestamp="1611241292658">
+    <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1611885374444" />
+    <state width="1237" height="134" key="GridCell.Tab.0.bottom" timestamp="1611886077768">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1611241292658" />
-    <state width="1237" height="134" key="GridCell.Tab.0.bottom" timestamp="1611243460235">
+    <state width="1237" height="134" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1611886077768" />
+    <state width="1237" height="134" key="GridCell.Tab.0.center" timestamp="1611886077768">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="134" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1611243460235" />
-    <state width="1237" height="134" key="GridCell.Tab.0.center" timestamp="1611243460235">
+    <state width="1237" height="134" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1611886077768" />
+    <state width="1237" height="134" key="GridCell.Tab.0.left" timestamp="1611886077768">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="134" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1611243460235" />
-    <state width="1237" height="134" key="GridCell.Tab.0.left" timestamp="1611243460234">
+    <state width="1237" height="134" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1611886077768" />
+    <state width="1237" height="134" key="GridCell.Tab.0.right" timestamp="1611886077768">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="134" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1611243460234" />
-    <state width="1237" height="134" key="GridCell.Tab.0.right" timestamp="1611243460235">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1237" height="134" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1611243460235" />
+    <state width="1237" height="134" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1611886077768" />
     <state width="1237" height="212" key="GridCell.Tab.1.bottom" timestamp="1610404900465">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -279,22 +281,14 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="212" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1610404900465" />
-    <state x="233" y="90" key="Vcs.Push.Dialog.v2" timestamp="1602594382736">
+    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1611884599265">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="90" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1602594382736" />
-    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1611238478023">
+    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1611884599265" />
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1611884599290">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1611238478023" />
-    <state x="459" y="271" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602594342010">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="459" y="271" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1602594342010" />
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1611238478060">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1611238478060" />
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1611884599290" />
     <state x="91" y="0" key="new project wizard" timestamp="1610834024828">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -315,11 +309,6 @@
           <url>file://$PROJECT_DIR$/test_binary/Binary/BinaryTest.java</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Turtle/Turtle.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/test/GameOfCraps/DieTest.java</url>

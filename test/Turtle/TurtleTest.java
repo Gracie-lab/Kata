@@ -10,6 +10,7 @@ class TurtleTest {
     Turtle turtle;
 
     Pen pen = new Pen();
+    SketchPad sketchPad = new SketchPad();
     @BeforeEach
     void setUp() {
         turtle = new Turtle(pen);
@@ -70,12 +71,63 @@ class TurtleTest {
     }
 
     @Test
-    void turtleCanMoveEastWardOnASketchPad(){
+    void sketchPadObjectIsNotNull(){
+        assertNotNull(sketchPad);
+    }
+
+    @Test
+    void sketchPadIsOfSize20(){
+        assertEquals(20, sketchPad.floor.length);
+    }
+    @Test
+    void turtleCanGetASketchPadWhenAboutToMove(){
+        turtle.move(sketchPad, 0);
+    }
+
+    @Test
+    void turtleCanTurnRightOnASketchPad(){
         turtle.setCurrentDirection(Direction.EAST);
-        SketchPad sketchPad = new SketchPad();
+//        SketchPad sketchPad = new SketchPad();
+        turtle.move(sketchPad, 1);
+        assertEquals(Direction.SOUTH, turtle.getCurrentDirection());
+    }
+
+    @Test
+    void whenMovesOnSketchPadItsPositionChanges(){
+        turtle.setCurrentDirection(Direction.EAST);
         turtle.move(sketchPad, 5);
+        assertEquals(4, turtle.getYCoordinate());
+//        turtle.move(sketchPad, 1);
+//        assertEquals(2, turtle.getYCoordinate());
+    }
+
+    @Test
+    void whenTurtleMovesWithPenDownItWritesOnSKetchPad(){
+        turtle.setCurrentDirection(Direction.NORTH);
+        turtle.move(sketchPad, 3);
+//        assertEquals(1, sketchPad.getFloor()[0][2]);
+//        assertEquals(1, sketchPad.getFloor()[0][1]);
+
+        System.out.println(turtle.getCurrentDirection());
+
+        for(int i = 0; i < 3; i++){
+
+                System.out.println(sketchPad.getFloor()[0][i]);
+                    }
+    }
+
+    @Test
+    void testThatTurtleDraws(){
+        int steps = 7;
+        pen.setPenOrientation(PenOrientation.PEN_DOWN);
+        turtle.setCurrentDirection(Direction.NORTH);
+        turtle.move(sketchPad, steps);
+        for(int i = 0; i < steps; i++){
+            assertEquals(1, sketchPad.getFloor()[0][i]);
+        }
 
     }
+
 
 
 }
