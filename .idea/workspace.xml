@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Hackerrank/SalesByMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Hackerrank/SalesByMatchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/Board.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/TicTacToe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/Chibuzor&amp;I/TicTacToe/TicTacToeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Chibuzor&amp;I/TicTacToe/TicTacToeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TicTacToe/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TicTacToe/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/TicTacToe/TicTacToeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TicTacToe/TicTacToeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -58,11 +62,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Hackerrank" />
       <recent name="TicTacToe" />
       <recent name="Turtle" />
       <recent name="codeExercises" />
       <recent name="Calendar" />
-      <recent name="WeekDay" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="TicTacToe" />
@@ -70,38 +80,30 @@
       <recent name="GameOfCraps" />
       <recent name="SalaryCalc" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TicTacToeTest.playerMarksBoardWhenPlayerMoves">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SalesByMatchTest.getNumberOfPairsOfSocks">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToeTest.gameCanSetPlayersTurnToPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SalesByMatchTest.getNumberOfPairsOfSocks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TicTacToe.*" />
+          <option name="PATTERN" value="Hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TicTacToe" />
-      <option name="MAIN_CLASS_NAME" value="TicTacToe.TicTacToeTest" />
-      <option name="METHOD_NAME" value="gameCanSetPlayersTurnToPlay" />
+      <option name="PACKAGE_NAME" value="Hackerrank" />
+      <option name="MAIN_CLASS_NAME" value="Hackerrank.SalesByMatchTest" />
+      <option name="METHOD_NAME" value="getNumberOfPairsOfSocks" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToeTest.playersCurrentPositionCanBeTracked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicTacToeTest.printTwoDimensionalArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
@@ -133,13 +135,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="TicTacToe" />
       <option name="MAIN_CLASS_NAME" value="TicTacToe.TicTacToeTest" />
-      <option name="METHOD_NAME" value="playersCurrentPositionCanBeTracked" />
+      <option name="METHOD_NAME" value="printTwoDimensionalArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToeTest.testThatPlayerCanMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicTacToeTest.testThatBoardFloorIsEmptyByDefault" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
@@ -149,13 +151,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="TicTacToe" />
       <option name="MAIN_CLASS_NAME" value="TicTacToe.TicTacToeTest" />
-      <option name="METHOD_NAME" value="testThatPlayerCanMove" />
+      <option name="METHOD_NAME" value="testThatBoardFloorIsEmptyByDefault" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToeTest.test_tictactoe_has_two_players" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicTacToeTest.testThatICanSeeGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
         <pattern>
@@ -165,7 +167,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="TicTacToe" />
       <option name="MAIN_CLASS_NAME" value="TicTacToe.TicTacToeTest" />
-      <option name="METHOD_NAME" value="test_tictactoe_has_two_players" />
+      <option name="METHOD_NAME" value="testThatICanSeeGame" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesByMatchTest.getNumberOfPairsOfSocks" />
+        <item itemvalue="JUnit.TicTacToeTest.testThatICanSeeGame" />
+        <item itemvalue="JUnit.TicTacToeTest.testThatBoardFloorIsEmptyByDefault" />
+        <item itemvalue="JUnit.TicTacToeTest.printTwoDimensionalArray" />
         <item itemvalue="JUnit.TicTacToeTest.playerMarksBoardWhenPlayerMoves" />
-        <item itemvalue="JUnit.TicTacToeTest.testThatPlayerCanMove" />
-        <item itemvalue="JUnit.TicTacToeTest.playersCurrentPositionCanBeTracked" />
-        <item itemvalue="JUnit.TicTacToeTest.gameCanSetPlayersTurnToPlay" />
-        <item itemvalue="JUnit.TicTacToeTest.test_tictactoe_has_two_players" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +209,11 @@
       <workItem from="1611230856107" duration="8367000" />
       <workItem from="1611351322798" duration="9231000" />
       <workItem from="1611635095957" duration="1821000" />
-      <workItem from="1611880285281" duration="11004000" />
+      <workItem from="1611880285281" duration="14694000" />
+      <workItem from="1612008218806" duration="2035000" />
+      <workItem from="1612109457372" duration="3461000" />
+      <workItem from="1612117685010" duration="42000" />
+      <workItem from="1612145493416" duration="1796000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
@@ -243,26 +249,26 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1610349493450" />
-    <state x="421" y="115" key="FileChooserDialogImpl" timestamp="1611885374444">
+    <state x="421" y="115" key="FileChooserDialogImpl" timestamp="1612101124783">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1611885374444" />
-    <state width="1237" height="148" key="GridCell.Tab.0.bottom" timestamp="1611962336384">
+    <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1612101124783" />
+    <state width="1237" height="239" key="GridCell.Tab.0.bottom" timestamp="1612147148806">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="148" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1611962336384" />
-    <state width="1237" height="148" key="GridCell.Tab.0.center" timestamp="1611962336383">
+    <state width="1237" height="239" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1612147148806" />
+    <state width="1237" height="239" key="GridCell.Tab.0.center" timestamp="1612147148806">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="148" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1611962336383" />
-    <state width="1237" height="148" key="GridCell.Tab.0.left" timestamp="1611962336383">
+    <state width="1237" height="239" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1612147148806" />
+    <state width="1237" height="239" key="GridCell.Tab.0.left" timestamp="1612147148806">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="148" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1611962336383" />
-    <state width="1237" height="148" key="GridCell.Tab.0.right" timestamp="1611962336383">
+    <state width="1237" height="239" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1612147148806" />
+    <state width="1237" height="239" key="GridCell.Tab.0.right" timestamp="1612147148806">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="148" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1611962336383" />
+    <state width="1237" height="239" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1612147148806" />
     <state width="1237" height="212" key="GridCell.Tab.1.bottom" timestamp="1610404900465">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -279,26 +285,26 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="212" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1610404900465" />
-    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1611884599265">
+    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1612145613244">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1611884599265" />
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1611884599290">
+    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1612145613244" />
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1612145613296">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1611884599290" />
-    <state x="91" y="0" key="new project wizard" timestamp="1610834024828">
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1612145613296" />
+    <state x="91" y="0" key="new project wizard" timestamp="1612101127763">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="91" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1610834024828" />
+    <state x="91" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1612101127763" />
     <state x="427" y="103" key="refactoring.ChangeSignatureDialog" timestamp="1609204029551">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="427" y="103" key="refactoring.ChangeSignatureDialog/0.0.1280.720@0.0.1280.720" timestamp="1609204029551" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1610860416026">
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1612112113744">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1610860416026" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1612112113744" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

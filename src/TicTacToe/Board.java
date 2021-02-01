@@ -9,8 +9,8 @@ public class Board {
     }
 
     private void setBoard( Values[][] board){
-        for(int row = 2; row <=2; row++){
-            for(int column = 2; column<=2; column++){
+        for(int row = 0; row <=2; row++){
+            for(int column = 0; column<=2; column++){
                 board[row][column] = Values.EMPTY;
             }
         }
