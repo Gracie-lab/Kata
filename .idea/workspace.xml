@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Hackerrank/SalesByMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Hackerrank/SalesByMatchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Chibuzor&amp;I/TicTacToe/TicTacToeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Chibuzor&amp;I/TicTacToe/TicTacToeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/TicTacToe/TicTacToeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TicTacToe/TicTacToeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +74,7 @@
       <recent name="SalaryCalc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SalesByMatchTest.getNumberOfPairsOfSocks">
+  <component name="RunManager" selected="JUnit.TicTacToeTest.testThatICanSeeGame">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -175,8 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SalesByMatchTest.getNumberOfPairsOfSocks" />
         <item itemvalue="JUnit.TicTacToeTest.testThatICanSeeGame" />
+        <item itemvalue="JUnit.SalesByMatchTest.getNumberOfPairsOfSocks" />
         <item itemvalue="JUnit.TicTacToeTest.testThatBoardFloorIsEmptyByDefault" />
         <item itemvalue="JUnit.TicTacToeTest.printTwoDimensionalArray" />
         <item itemvalue="JUnit.TicTacToeTest.playerMarksBoardWhenPlayerMoves" />
@@ -213,7 +206,7 @@
       <workItem from="1612008218806" duration="2035000" />
       <workItem from="1612109457372" duration="3461000" />
       <workItem from="1612117685010" duration="42000" />
-      <workItem from="1612145493416" duration="1796000" />
+      <workItem from="1612145493416" duration="2741000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
@@ -253,22 +246,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1612101124783" />
-    <state width="1237" height="239" key="GridCell.Tab.0.bottom" timestamp="1612147148806">
+    <state width="1237" height="239" key="GridCell.Tab.0.bottom" timestamp="1612147596878">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="239" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1612147148806" />
-    <state width="1237" height="239" key="GridCell.Tab.0.center" timestamp="1612147148806">
+    <state width="1237" height="239" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1612147596878" />
+    <state width="1237" height="239" key="GridCell.Tab.0.center" timestamp="1612147596877">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="239" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1612147148806" />
-    <state width="1237" height="239" key="GridCell.Tab.0.left" timestamp="1612147148806">
+    <state width="1237" height="239" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1612147596877" />
+    <state width="1237" height="239" key="GridCell.Tab.0.left" timestamp="1612147596877">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="239" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1612147148806" />
-    <state width="1237" height="239" key="GridCell.Tab.0.right" timestamp="1612147148806">
+    <state width="1237" height="239" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1612147596877" />
+    <state width="1237" height="239" key="GridCell.Tab.0.right" timestamp="1612147596877">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="239" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1612147148806" />
+    <state width="1237" height="239" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1612147596877" />
     <state width="1237" height="212" key="GridCell.Tab.1.bottom" timestamp="1610404900465">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

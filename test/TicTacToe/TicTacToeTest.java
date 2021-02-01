@@ -97,13 +97,6 @@ class TicTacToeTest {
     }
 
     @Test
-    void playGame(){
-        Player x = new Player();
-        Player o = new Player();
-        ticTacToe.getCurrentPlayer().playGame();
-    }
-
-    @Test
     void testThatICanSeeGame(){
         Player x = new Player();
         ticTacToe.setCurrentPlayer(x);
@@ -129,14 +122,6 @@ class TicTacToeTest {
             System.out.println();
         }
 
-//        for(int row = 2; row <=2; row++){
-//            for(int column = 2; column<=2; column++){
-//                System.out.println(ticTacToe.getBoard().getBoardFloor()[row][column]);
-//            }
-//        }
-//        ticTacToe.showGame();
-
-
     }
 
     @Test
@@ -151,18 +136,6 @@ class TicTacToeTest {
         ticTacToe.getCurrentPlayer().sketch(ticTacToe.getBoard(), Values.X);
 
 
-    }
-
-    @Test
-    void printTwoDimensionalArray(){
-        int[][] array = new int[3][3];
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                System.out.print(array[i][j] + " ");
-            }
-
-            System.out.println();
-        }
     }
 
 }
