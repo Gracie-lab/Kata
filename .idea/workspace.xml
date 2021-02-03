@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Hackerrank/HourGlass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Hackerrank/HourGlassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/TicTacToe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hackerrank/HourGlass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hackerrank/HourGlass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,17 +75,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.HourGlassTest.testGetSumOfHourglass">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HourGlassTest.testGetSumOfHourglass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
@@ -215,6 +200,7 @@
       <workItem from="1612217413759" duration="608000" />
       <workItem from="1612262771960" duration="8000" />
       <workItem from="1612314888372" duration="5631000" />
+      <workItem from="1612351820831" duration="1951000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
