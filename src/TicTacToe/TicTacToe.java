@@ -1,7 +1,6 @@
 package TicTacToe;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 public class TicTacToe {
@@ -34,7 +33,4 @@ public class TicTacToe {
         this.currentPlayer = player;
     }
 
-    public void move(int numberOfMovesToXDirection , int numberOfMovesToYDirection) {
-
-    }
 }

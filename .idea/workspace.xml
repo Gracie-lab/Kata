@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8649229d-30dc-4235-a6ab-48fcc9113e51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Hackerrank/HourGlass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Hackerrank/HourGlassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TicTacToe/TicTacToeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TicTacToe/TicTacToeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chibuzor&amp;I/TicTacToe/TicTacToe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/test" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test/Hackerrank" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Semicolon/java/Pattern" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -61,20 +65,20 @@
       <recent name="codeExercises" />
       <recent name="Calendar" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="TicTacToe" />
       <recent name="smallStore" />
       <recent name="GameOfCraps" />
       <recent name="SalaryCalc" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\java\Chibuzor&amp;I\src\Binary" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TicTacToeTest.testThatICanSeeGame">
+  <component name="RunManager" selected="JUnit.HourGlassTest.testGetSumOfHourglass">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -82,6 +86,22 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HourGlassTest.testGetSumOfHourglass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chibuzor&amp;I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hackerrank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Hackerrank" />
+      <option name="MAIN_CLASS_NAME" value="Hackerrank.HourGlassTest" />
+      <option name="METHOD_NAME" value="testGetSumOfHourglass" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,22 +117,6 @@
       <option name="PACKAGE_NAME" value="Hackerrank" />
       <option name="MAIN_CLASS_NAME" value="Hackerrank.SalesByMatchTest" />
       <option name="METHOD_NAME" value="getNumberOfPairsOfSocks" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicTacToeTest.playerMarksBoardWhenPlayerMoves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chibuzor&amp;I" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TicTacToe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TicTacToe" />
-      <option name="MAIN_CLASS_NAME" value="TicTacToe.TicTacToeTest" />
-      <option name="METHOD_NAME" value="playerMarksBoardWhenPlayerMoves" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HourGlassTest.testGetSumOfHourglass" />
         <item itemvalue="JUnit.TicTacToeTest.testThatICanSeeGame" />
         <item itemvalue="JUnit.SalesByMatchTest.getNumberOfPairsOfSocks" />
         <item itemvalue="JUnit.TicTacToeTest.testThatBoardFloorIsEmptyByDefault" />
         <item itemvalue="JUnit.TicTacToeTest.printTwoDimensionalArray" />
-        <item itemvalue="JUnit.TicTacToeTest.playerMarksBoardWhenPlayerMoves" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +210,11 @@
       <workItem from="1612008218806" duration="2035000" />
       <workItem from="1612109457372" duration="3461000" />
       <workItem from="1612117685010" duration="42000" />
-      <workItem from="1612145493416" duration="2741000" />
+      <workItem from="1612145493416" duration="4119000" />
+      <workItem from="1612177942721" duration="754000" />
+      <workItem from="1612217413759" duration="608000" />
+      <workItem from="1612262771960" duration="8000" />
+      <workItem from="1612314888372" duration="5631000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
@@ -246,22 +254,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1612101124783" />
-    <state width="1237" height="239" key="GridCell.Tab.0.bottom" timestamp="1612147596878">
+    <state width="1237" height="235" key="GridCell.Tab.0.bottom" timestamp="1612350796510">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="239" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1612147596878" />
-    <state width="1237" height="239" key="GridCell.Tab.0.center" timestamp="1612147596877">
+    <state width="1237" height="235" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1612350796510" />
+    <state width="1237" height="235" key="GridCell.Tab.0.center" timestamp="1612350796510">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="239" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1612147596877" />
-    <state width="1237" height="239" key="GridCell.Tab.0.left" timestamp="1612147596877">
+    <state width="1237" height="235" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1612350796510" />
+    <state width="1237" height="235" key="GridCell.Tab.0.left" timestamp="1612350796509">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="239" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1612147596877" />
-    <state width="1237" height="239" key="GridCell.Tab.0.right" timestamp="1612147596877">
+    <state width="1237" height="235" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1612350796509" />
+    <state width="1237" height="235" key="GridCell.Tab.0.right" timestamp="1612350796510">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="239" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1612147596877" />
+    <state width="1237" height="235" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1612350796510" />
     <state width="1237" height="212" key="GridCell.Tab.1.bottom" timestamp="1610404900465">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -278,14 +286,14 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="212" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1610404900465" />
-    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1612145613244">
+    <state x="451" y="122" key="chooseDestDirectoryDialog" timestamp="1612316402254">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1612145613244" />
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1612145613296">
+    <state x="451" y="122" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1612316402254" />
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1612316402281">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1612145613296" />
+    <state x="412" y="63" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1612316402281" />
     <state x="91" y="0" key="new project wizard" timestamp="1612101127763">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

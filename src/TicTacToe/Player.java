@@ -41,7 +41,4 @@ public class Player {
     }
 
 
-//    public Object getPlayersCurrentPosition() {
-//        return currentLocation;
-//    }
 }
