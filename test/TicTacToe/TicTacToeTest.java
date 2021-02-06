@@ -13,7 +13,7 @@ class TicTacToeTest {
     Board board;
     Random generateRandomNumber = new Random();
 
-    Values[][] floor = new Values[3][3];
+    BoardValues[][] floor = new BoardValues[3][3];
     @BeforeEach
     void setUp() {
         ticTacToe = new TicTacToe();
@@ -38,7 +38,7 @@ class TicTacToeTest {
     void testThatBoardFloorIsEmptyByDefault(){
         for(int row = 2; row <=2; row++){
             for(int column = 2; column<=2; column++){
-                assertEquals(Values.EMPTY, ticTacToe.getBoard().getBoardFloor()[row][column]);
+                assertEquals(BoardValues.EMPTY, ticTacToe.getBoard().getBoardFloor()[row][column]);
             }
         }
     }
@@ -89,25 +89,44 @@ class TicTacToeTest {
         Player x = new Player();
         ticTacToe.setCurrentPlayer(x);
         ticTacToe.getCurrentPlayer().move(1,2);
-        ticTacToe.getCurrentPlayer().sketch(ticTacToe.getBoard(), Values.X);
+        ticTacToe.getCurrentPlayer().sketch(ticTacToe.getBoard(), BoardValues.X);
 
-        assertEquals(Values.X, ticTacToe.getBoard().getBoardFloor()
+        assertEquals(BoardValues.X, ticTacToe.getBoard().getBoardFloor()
                                     [ticTacToe.getCurrentPlayer().getxCoordinate()]
-                                        [ticTacToe.getCurrentPlayer().getyCoordinate()]);
+                                    [ticTacToe.getCurrentPlayer().getyCoordinate()]);
+    }
+
+    @Test
+    void testThatPlayerCannotOverwriteMarkingOnBoard(){
+        ticTacToe.getBoard().getBoardFloor()[1][1] = BoardValues.X;
+        Player O = new Player();
+        ticTacToe.setCurrentPlayer(O);
+
+        System.out.println(   ticTacToe.getBoard().getBoardFloor()[1][1] );
+        ticTacToe.getCurrentPlayer().move(1, 1);
+        ticTacToe.getCurrentPlayer().sketch(board, BoardValues.O);
+        System.out.println(   ticTacToe.getBoard().getBoardFloor()[1][1] );
+//        assertEquals(BoardValues.X, ticTacToe.getBoard.getBoardFloor()[1][1]);
+
     }
 
     @Test
     void testThatICanSeeGame(){
         Player x = new Player();
         ticTacToe.setCurrentPlayer(x);
-        ticTacToe.getCurrentPlayer().playGame();
-//        ticTacToe.getCurrentPlayer().move(generateRandomNumber.nextInt(3),generateRandomNumber.nextInt(3));
-//        ticTacToe.getCurrentPlayer().sketch(ticTacToe.getBoard(), Values.X);
+//        ticTacToe.getCurrentPlayer().playGame();
+        ticTacToe.getCurrentPlayer().move(generateRandomNumber.nextInt(2),generateRandomNumber.nextInt(2));
+        ticTacToe.getCurrentPlayer().sketch(ticTacToe.getBoard(), BoardValues.X);
 
         Player o = new Player();
         ticTacToe.setCurrentPlayer(o);
-        ticTacToe.getCurrentPlayer().move(2,2);
-        ticTacToe.getCurrentPlayer().sketch(ticTacToe.getBoard(), Values.O);
+       ; ticTacToe.getCurrentPlayer().move(generateRandomNumber.nextInt(2),generateRandomNumber.nextInt(2));
+        ticTacToe.getCurrentPlayer().sketch(ticTacToe.getBoard(), BoardValues.O);
+
+
+
+
+
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
@@ -133,7 +152,7 @@ class TicTacToeTest {
         ticTacToe.getCurrentPlayer().setxCoordinate(0);
         ticTacToe.getCurrentPlayer().setyCoordinate(0);
         ticTacToe.getCurrentPlayer().move(generateRandomNumber.nextInt(3), generateRandomNumber.nextInt(3));
-        ticTacToe.getCurrentPlayer().sketch(ticTacToe.getBoard(), Values.X);
+        ticTacToe.getCurrentPlayer().sketch(ticTacToe.getBoard(), BoardValues.X);
 
 
     }

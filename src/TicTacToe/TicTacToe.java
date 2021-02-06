@@ -5,7 +5,7 @@ import java.util.List;
 
 public class TicTacToe {
 
-    Values[][] boardFloor = new Values[3][3];
+    BoardValues[][] boardFloor = new BoardValues[3][3];
     private Player currentPlayer;
    private Board board = new Board(boardFloor);
     private List<Player> players = new ArrayList<>();

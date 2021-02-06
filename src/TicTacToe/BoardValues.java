@@ -1,5 +1,5 @@
 package TicTacToe;
 
-public enum Values {
+public enum BoardValues {
     X, O, EMPTY
 }

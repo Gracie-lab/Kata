@@ -1,22 +1,22 @@
 package TicTacToe;
 
 public class Board {
-    private Values[][] boardFloor;
+    private BoardValues[][] boardFloor;
 
-    public Board(Values[][] board){
+    public Board(BoardValues[][] board){
         setBoard(board);
         this.boardFloor = board;
     }
 
-    private void setBoard( Values[][] board){
+    private void setBoard( BoardValues[][] board){
         for(int row = 0; row <=2; row++){
             for(int column = 0; column<=2; column++){
-                board[row][column] = Values.EMPTY;
+                board[row][column] = BoardValues.EMPTY;
             }
         }
     }
 
-    public Values[][] getBoardFloor(){
+    public BoardValues[][] getBoardFloor(){
         return this.boardFloor;
     }
 }
