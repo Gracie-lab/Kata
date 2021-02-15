@@ -75,6 +75,19 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.NewYearChaosTest.getNumberOfCheats">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HourGlassTest.testGetSumOfHourglass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chibuzor&amp;I" />
       <extension name="coverage">
@@ -209,6 +222,7 @@
       <workItem from="1612958645669" duration="678000" />
       <workItem from="1612994693178" duration="62000" />
       <workItem from="1613009547196" duration="801000" />
+      <workItem from="1613101428812" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="added Inventory and Order class">
       <created>1602594377994</created>
@@ -296,10 +310,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="427" y="103" key="refactoring.ChangeSignatureDialog/0.0.1280.720@0.0.1280.720" timestamp="1609204029551" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1612654004532">
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1613104217500">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1612654004532" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1613104217500" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
