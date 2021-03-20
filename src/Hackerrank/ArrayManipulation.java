@@ -5,19 +5,19 @@ package Hackerrank;
 //Once all operations have been performed, return the maximum value in the array.
 
 public class ArrayManipulation {
-    int[][] resultingArray;
 
-    public int manipulateArray(int[][] array){
-        int firstIndex = 0;
-        int lastIndex = 0;
-        for(int row=0; row<array.length; row++){
-            for(int column = 0; column<array[row].length; column++) {
-                firstIndex = array[row][column];
-                if (column + 2 == array.length - 1){
-                    lastIndex = array[row][column+1];
-                }
+    public int[] manipulateArray(int[] initialArray){
+            int[] newArray = new int[6];
+            int startingIndex = initialArray[0];
+            int endingIndex = initialArray[1];
+            int counter = startingIndex;
+            while(counter <= endingIndex){
+                newArray[counter] += initialArray[2];
+                counter++;
             }
-        }
-
+            return newArray;
     }
+
+
+
 }
