@@ -27,4 +27,10 @@ class ArrayManipulationTest {
 
     }
 
+    @Test
+    void anotherTest(){
+        int[][] array = {{1,2,100}, {2, 5, 100}, {3, 4, 100}};
+        System.out.println(Arrays.deepToString(arrayManipulation.man(array)));
+    }
+
 }

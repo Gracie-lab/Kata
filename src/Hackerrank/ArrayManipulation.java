@@ -18,6 +18,21 @@ public class ArrayManipulation {
             return newArray;
     }
 
+    public int[][] man(int[][] array){
+        int[][] newArray = new int[6][6];
 
+            int row = 0;
+            int rowOfResultingArray = 1;
+            int startingIndex = array[row][0] ;
+            int endingIndex = array[row][1];
+            int counter = startingIndex;
+            while(counter <= endingIndex){
+                newArray[rowOfResultingArray][counter] += array[row][2];
+                counter++;
+            }
+            rowOfResultingArray++;
+
+        return newArray;
+    }
 
 }
