@@ -19,18 +19,26 @@ public class ArrayManipulation {
     }
 
     public int[][] man(int[][] array){
-        int[][] newArray = new int[6][6];
+        int row = 0;
+        int rowOfResultingArray = 1;
+        int[][] newArray = new int[5][5];
+            while(row < array.length) {
+                int startingIndex = array[row][0]-1;
+                int endingIndex = array[row][1]-1;
+                int counter = startingIndex;
+                while (counter <= endingIndex) {
+                    newArray[rowOfResultingArray][counter] += array[row][2];
+                    newArray[rowOfResultingArray+1][counter] += array[row][2];
+                    counter++;
+                }
+                rowOfResultingArray++;
+//                for(int index =0; index<array.length-1; index++){
+//                    newArray[rowOfResultingArray+1][index] = newArray[rowOfResultingArray][index];
+//                    array[row+1][index] = array[row][index];
+//                }
+                row++;
 
-            int row = 0;
-            int rowOfResultingArray = 1;
-            int startingIndex = array[row][0] ;
-            int endingIndex = array[row][1];
-            int counter = startingIndex;
-            while(counter <= endingIndex){
-                newArray[rowOfResultingArray][counter] += array[row][2];
-                counter++;
             }
-            rowOfResultingArray++;
 
         return newArray;
     }
